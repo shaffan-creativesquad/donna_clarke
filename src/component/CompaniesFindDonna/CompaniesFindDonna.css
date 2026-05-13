@@ -1,0 +1,134 @@
+/* ================================================================
+   CompaniesFindDonna Section
+   ================================================================ */
+
+.companies-section {
+    background-color: #512533; /* Dark burgundy color based on the image */
+    padding: 100px 100px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.companies-bg-text {
+    position: absolute;
+    bottom: -20px; 
+    left: 30%;
+    font-size: 140px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.03); 
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+    line-height: 1;
+    letter-spacing: 12px;
+}
+
+.companies-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.companies-left {
+    max-width: 800px;
+}
+
+.companies-title {
+    font-size: 52px;
+    color: #F7F3EE; 
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.companies-title-em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.companies-description {
+    font-size: 13.5px;
+    line-height: 1.85;
+    color: rgba(247, 243, 238, 0.55); 
+    margin: 0;
+    max-width: 520px;
+}
+
+.companies-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+.companies-btn {
+    padding: 18px 24px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-gold {
+    background: linear-gradient(135deg, #B58A51 0%, #D4B272 50%, #B58A51 100%);
+    color: #2E0E18; 
+}
+
+.btn-gold:hover {
+    filter: brightness(1.1);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid rgba(247, 243, 238, 0.2);
+    color: rgba(247, 243, 238, 0.7);
+}
+
+.btn-outline:hover {
+    background: rgba(247, 243, 238, 0.05);
+    border-color: rgba(247, 243, 238, 0.5);
+    color: #F7F3EE;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .companies-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+    }
+    
+    .companies-bg-text {
+        font-size: 120px;
+        left: 5%;
+        bottom: 0;
+    }
+    
+    .companies-right {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .companies-section {
+        padding: 60px 24px;
+    }
+    
+    .companies-title {
+        font-size: 40px;
+    }
+    
+    .companies-bg-text {
+        font-size: 80px;
+        left: 0;
+    }
+}

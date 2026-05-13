@@ -1,0 +1,239 @@
+.AboutDonna-section {
+    display: flex;
+    min-height: 100vh;
+    background-color: #4A1E2A;
+    color: #FFFFFF;
+}
+
+.AboutDonna-image-container {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #3D1823; /* Slightly darker shade */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+
+.AboutDonna-placeholder-square {
+    width: 80%;
+    height: 80%;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.AboutDonna-image-caption {
+    text-align: center;
+    width: 100%;
+}
+
+
+.AboutDonna-image-info {
+    width: 80%;
+    margin-top: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.AboutDonna-image-info p {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin: 0;
+    width: 100%;
+}
+
+
+.AboutDonna-caption-name {
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #DEB87A;
+    margin-bottom: 5px;
+}
+
+.AboutDonna-caption-detail {
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.AboutDonna-content-container {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4A1E2A;
+}
+
+.AboutDonna-subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.AboutDonna-subtitle-line {
+    width: 40px;
+    height: 0.5px;
+    background-color: rgba(250, 246, 239, 0.3);
+
+    margin-right: 15px;
+}
+
+.AboutDonna-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #faf6ef80;
+}
+
+.AboutDonna-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.AboutDonna-title-line {
+    width: 60px;
+    height: 0.5px;
+    background-color: rgba(222, 184, 122, 0.5);
+
+    margin-bottom: 40px;
+}
+
+
+.AboutDonna-title em {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #DEB87A;
+    white-space: nowrap;
+}
+
+
+
+
+.AboutDonna-text-block {
+    margin-bottom: 40px;
+}
+
+.AboutDonna-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #faf6ef80;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.AboutDonna-quote-block {
+    margin-top: 20px;
+}
+
+.AboutDonna-quote-wrapper {
+    padding: 40px 0;
+    border-top: 0.5px solid rgba(222, 184, 122, 0.15);
+    border-bottom: 0.5px solid rgba(222, 184, 122, 0.15);
+
+    margin-bottom: 30px;
+}
+
+
+.AboutDonna-quote {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.AboutDonna-attribution {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #DEB87A;
+    margin-bottom: 40px;
+}
+
+.AboutDonna-button-wrapper {
+    margin-top: 10px;
+}
+
+.AboutDonna-button {
+    padding: 15px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.AboutDonna-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+@media (max-width: 1200px) {
+    .AboutDonna-title {
+        font-size: 42px;
+    }
+    .AboutDonna-content-container {
+        padding: 60px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .AboutDonna-section {
+        flex-direction: column;
+    }
+    .AboutDonna-image-container {
+        flex: none;
+        width: 100%;
+        height: 600px;
+        padding: 50px 40px;
+    }
+    .AboutDonna-placeholder-square {
+        width: 85%;
+        height: 85%;
+    }
+    .AboutDonna-content-container {
+        flex: none;
+        width: 100%;
+        padding: 60px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .AboutDonna-image-container {
+        height: 480px;
+        padding: 40px 24px;
+    }
+    .AboutDonna-placeholder-square {
+        width: 90%;
+        height: 88%;
+    }
+    .AboutDonna-image-info {
+        width: 90%;
+    }
+}

@@ -1,0 +1,123 @@
+.ThreeWorldsSection-container {
+    background-color: #FDF9F4;
+    border-top: 2px solid #4A1E2A;
+    border-bottom: 1px solid #4A1E2A;
+}
+
+.ThreeWorlds-column {
+    border-right: 1px solid #EAE4DB;
+    padding: 80px 60px;
+    position: relative;
+    min-height: 500px;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ThreeWorlds-column::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #4A1E2A;
+    transition: width 0.5s ease;
+}
+
+.ThreeWorlds-column:hover {
+    background-color: #F5EBEE;
+}
+
+.ThreeWorlds-column:hover::before {
+    width: 100%;
+}
+
+.ThreeWorlds-column:hover .ThreeWorlds-number {
+    color: #4A1E2A;
+    opacity: 0.15;
+}
+
+
+.ThreeWorlds-column:last-child {
+    border-right: none;
+}
+
+.ThreeWorlds-content {
+    position: relative;
+    z-index: 1;
+}
+
+.ThreeWorlds-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    color: #F1ECEA;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.ThreeWorlds-tagline {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6B4E2A;
+    margin-bottom: 10px;
+}
+
+.ThreeWorlds-title {
+    font-size: 42px;
+    color: #252525;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.ThreeWorlds-title i {
+    color: #4A1E2A;
+}
+
+.ThreeWorlds-description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666666;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.ThreeWorlds-link {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #252525;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.ThreeWorlds-link:hover {
+    color: #C0A880;
+}
+
+@media (max-width: 1200px) {
+    .ThreeWorlds-column {
+        padding: 60px 40px;
+    }
+
+    .ThreeWorlds-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    .ThreeWorlds-column {
+        border-right: none;
+        border-bottom: 1px solid #EAE4DB;
+        padding: 60px 30px;
+    }
+
+    .ThreeWorlds-column:last-child {
+        border-bottom: none;
+    }
+}

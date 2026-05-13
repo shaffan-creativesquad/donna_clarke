@@ -1,0 +1,367 @@
+
+.Hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 68px;
+  padding-bottom: 60px;
+  background: linear-gradient(160deg, #2E1018 0%, #4A1E2A 45%, #6B2D3C 100%);
+  overflow: hidden;
+}
+
+/* subtle noise texture overlay */
+.Hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.5;
+}
+
+/* ── Background Glows ────────────────────────────── */
+.heroSoft {
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(250,246,239,0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.heroGlow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(ellipse at 100% 0%, rgba(196,160,112,0.12) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Columns ─────────────────────────────────────── */
+.Hero_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.Hero_Content_right {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Kicker ──────────────────────────────────────── */
+.heroKicker {
+  /* layout via Bootstrap d-flex align-items-center gap-3 mb-4 */
+}
+
+.kBar {
+  display: block;
+  width: 36px;
+  height: 1px;
+  background: #C4A070;
+  flex-shrink: 0;
+}
+
+.kTxt {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #DEB87A;
+}
+
+/* ── Hero Name ───────────────────────────────────── */
+.heroName {
+  font-size: clamp(60px, 8.5vw, 114px);
+  font-weight: 400;
+  line-height: 0.88;
+  color: #fff;
+}
+
+.gradientText {
+  display: block;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.25));
+}
+
+/* ── Sub / Tagline / Body ────────────────────────── */
+.heroSub {
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 300;
+  color: rgba(250,246,239,0.72);
+  letter-spacing: 0.5px;
+}
+
+.heroTagline {
+  font-size: clamp(15px, 1.7vw, 20px);
+  font-weight: 300;
+  color: rgba(250,246,239,0.5);
+  max-width: 480px;
+  line-height: 1.78;
+}
+
+.heroBody {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: rgba(250,246,239,0.4);
+  max-width: 460px;
+}
+
+/* ── Buttons ─────────────────────────────────────── */
+.btnHocRow {
+  border-bottom: 1px solid rgba(106, 62, 72, 0.6);
+}
+
+.btnGold {
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 30px;
+  background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%);
+  color: #1A1410;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.btnGold:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+}
+
+.btnOutlineLight {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border: 1.5px solid rgba(250,246,239,0.3);
+  background: transparent;
+  color: rgba(250,246,239,0.65);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
+}
+
+.btnOutlineLight:hover {
+  border-color: rgba(250,246,239,0.6);
+  color: #fff;
+  background: rgba(250,246,239,0.06);
+}
+
+.btnOutlineGold {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border: 1.5px solid rgba(196,160,112,0.5);
+  background: transparent;
+  color: rgba(196,160,112,0.8);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
+}
+
+.btnOutlineGold:hover {
+  border-color: #C4A070;
+  color: #DEB87A;
+  background: rgba(196,160,112,0.08);
+}
+
+/* ── Credential Lines ────────────────────────────── */
+.heroCreds {
+  /* layout via Bootstrap d-flex flex-column w-100 */
+}
+
+.hcred {
+  border-bottom: 1px solid rgba(250,246,239,0.05);
+}
+
+.hcredBar {
+  width: 2px;
+  min-height: 100%;
+  background: #C4A070;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.hcredLabel {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(250,246,239,0.45);
+  line-height: 1.6;
+}
+
+.hcredLabel strong {
+  display: block;
+  color: rgba(250,246,239,0.75);
+  font-weight: 600;
+}
+
+/* ── Right Column — Portrait ─────────────────────── */
+.portraitWrap {
+  max-width: 480px;
+}
+
+/* offset corner bracket */
+.portraitCorner {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  right: -24px;
+  bottom: -24px;
+  border: 1px solid rgba(196,160,112,0.22);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Portrait placeholder */
+.portraitPh {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 3 / 4;
+  width: 100%;
+  background: rgba(250,246,239,0.06);
+  border: 1px solid rgba(250,246,239,0.12);
+  /* ── Replace this entire block with:
+        <img src="/images/donna-hero.jpg" alt="Donna Clarke" class="img-fluid w-100 h-100" style={{objectFit:"cover"}} />
+     once the real photo is available ── */
+}
+
+.portraitPhLabel {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(196,160,112,0.4);
+}
+
+.portraitPhNote {
+  font-size: 11px;
+  color: rgba(250,246,239,0.25);
+  line-height: 1.6;
+}
+
+/* Floating quote card */
+.quoteFloat {
+  position: absolute;
+  bottom: -40px;
+  left: -48px;
+  z-index: 4;
+  background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%);
+  padding: 1.5px;
+  max-width: 260px;
+}
+
+.quoteFloatInner {
+  background: #2E1018;
+}
+
+.quoteFloatInner p {
+  font-size: 13px;
+  color: #FAF6EF;
+  line-height: 1.65;
+}
+
+.quoteFloatInner cite {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(196,160,112,0.55);
+  font-style: normal;
+}
+
+/* ── Scroll Indicator ────────────────────────────── */
+.heroScroll {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  /* layout via Bootstrap d-none d-lg-flex flex-column align-items-center gap-2 */
+}
+
+.scrollTxt {
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(250,246,239,0.22);
+}
+
+.scrollBar {
+  width: 1px;
+  height: 38px;
+  background: linear-gradient(to bottom, #6B4E2A, transparent);
+  animation: scrollAnim 2.5s ease-in-out infinite;
+}
+
+@keyframes scrollAnim {
+  0%, 100% { opacity: 0.5; transform: scaleY(1);    }
+  50%       { opacity: 0.15; transform: scaleY(0.4); transform-origin: top; }
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 992px) {
+  .heroBody,
+  .heroTagline {
+    max-width: 100%;
+  }
+
+  .portraitWrap {
+    margin-top: 24px;
+    max-width: 100%;
+  }
+
+  .portraitCorner {
+    display: none;
+  }
+
+  .quoteFloat {
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroName {
+    font-size: clamp(52px, 14vw, 80px);
+  }
+
+  .btnGold,
+  .btnOutlineLight,
+  .btnOutlineGold {
+    width: 100%;
+    justify-content: center;
+  }
+}

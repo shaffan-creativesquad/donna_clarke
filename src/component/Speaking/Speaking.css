@@ -1,0 +1,299 @@
+
+
+/* ── Hero ───────────────────────────────────────────────── */
+.speak-hero {
+  background: var(--burg-3);
+  padding: clamp(60px, 8vw, 100px) clamp(24px, 6vw, 80px);
+  border-bottom: 3px solid var(--gold);
+}
+
+.speak-hero-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.speak-hero-content {
+  color: #fff;
+}
+
+.speak-hero-h1 {
+  font-size: clamp(38px, 5.5vw, 70px);
+  margin-bottom: 24px;
+}
+
+.speak-hero-divider {
+  width: 44px;
+  height: 1px;
+  background: rgba(196, 160, 112, 0.4);
+  margin: 18px 0 22px;
+}
+
+.speak-hero-lede {
+  font-family: var(--elegant);
+  font-style: italic;
+  font-size: clamp(16px, 1.8vw, 20px);
+  color: rgba(250, 246, 239, 0.6);
+  line-height: 1.75;
+  margin-bottom: 22px;
+}
+
+.speak-hero-p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(250, 246, 239, 0.42);
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.speak-hero-btn-wrap {
+  margin-top: 28px;
+}
+
+.speak-hero-img {
+  aspect-ratio: 16/9;
+  width: 100%;
+  background: rgba(250, 246, 239, 0.05);
+  border: 1px solid rgba(196, 160, 112, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.speak-hero-img::before {
+  content: 'Donna Clarke — Speaking';
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(196, 160, 112, 0.4);
+  margin-bottom: 20px;
+}
+
+.speak-hero-placeholder {
+  font-size: 12px;
+  color: rgba(250, 246, 239, 0.3);
+  line-height: 1.6;
+}
+
+/* ── Keynotes Grid ───────────────────────────────────────── */
+.sec-ivory {
+  background: var(--ivory);
+  padding: clamp(60px, 8vw, 100px) clamp(24px, 6vw, 80px);
+}
+
+.speak-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.speak-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin-top: 44px;
+}
+
+.speak-card {
+  background: #fff;
+  padding: 44px 36px;
+  border-top: 3px solid transparent;
+  transition: transform 0.35s ease, box-shadow 0.35s, border-color 0.35s;
+}
+
+.speak-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(74, 30, 42, 0.1);
+  border-top-color: var(--burg);
+}
+
+.speak-cat {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-3);
+  margin-bottom: 12px;
+}
+
+.speak-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(20px, 2.2vw, 28px);
+  font-weight: 400;
+  color: var(--burg-3);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.speak-aud {
+  font-size: 11px;
+  color: var(--soft);
+  margin-bottom: 14px;
+  font-style: italic;
+}
+
+.speak-body {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--mid);
+}
+
+/* ── Wisdom Section ──────────────────────────────────────── */
+.sec-cream {
+  background: var(--cream);
+  padding: clamp(60px, 8vw, 100px) clamp(24px, 6vw, 80px);
+}
+
+.wisdom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin-top: 44px;
+}
+
+.wis-card {
+  background: var(--ivory);
+  padding: 36px 28px;
+  border-bottom: 2px solid transparent;
+  text-align: left;
+  transition: border-color 0.3s, transform 0.35s;
+}
+
+.wis-card:hover {
+  border-color: var(--burg);
+  transform: translateY(-4px);
+}
+
+.wis-title {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold-3);
+  margin-bottom: 10px;
+}
+
+.wis-body {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--mid);
+  margin-bottom: 16px;
+}
+
+.wis-q {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--burg-2, #6B2D3C);
+  line-height: 1.6;
+  border-left: 2px solid #6B4E2A;
+  padding-left: 14px;
+}
+
+.speak-btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 28px;
+  background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%);
+  color: #2E1018;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: opacity .25s, transform .15s;
+}
+.speak-btn-gold:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+/* ── Shared Typography ───────────────────────────────────── */
+.display-h {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 400;
+  line-height: 0.95;
+  color: var(--burg-3);
+  margin-bottom: 24px;
+}
+
+.display-h-lt {
+  color: #fff;
+}
+
+.display-h em {
+  font-style: italic;
+  color: #6B2D3C;
+}
+
+.display-h-lt em {
+  color: rgba(232, 210, 176, 0.8);
+}
+
+.lede {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: clamp(16px, 1.8vw, 20px);
+  max-width: 800px;
+  margin-bottom: 24px;
+}
+
+.ey {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--soft);
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+.ey::before {
+  content: '';
+  width: 18px;
+  height: 1px;
+  background: rgba(138, 112, 96, 0.4); /* soft brown for light bg */
+}
+
+.ey-burg::before {
+  background: #faf6ef80; /* ivory for dark bg */
+}
+
+.ey-burg {
+  color: #faf6ef80;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 991px) {
+  .speak-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .speak-grid,
+  .wisdom-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+
+  .speak-grid,
+  .wisdom-grid {
+    grid-template-columns: 1fr;
+  }
+}

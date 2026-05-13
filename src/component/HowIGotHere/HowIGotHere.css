@@ -1,0 +1,110 @@
+.hig-section {
+    background-color: #FDF9F4;
+    padding: 130px 0 100px;
+}
+
+.hig-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 60px 0 30px;
+}
+
+/* ── Eyebrow ── */
+.hig-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.hig-eyebrow-line {
+    display: block;
+    width: 32px;
+    height: 1px;
+    background-color: #6B4E2A;
+    flex-shrink: 0;
+}
+
+.hig-eyebrow-text {
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #6B4E2A;
+    font-weight: 600;
+}
+
+/* ── Heading ── */
+.hig-heading {
+    font-size: 76px;
+    line-height: 1.05;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin: 0 0 28px;
+}
+
+.hig-heading-em {
+    font-style: italic;
+    color: #4A1E2A;
+    font-weight: 400;
+}
+
+/* ── Tagline ── */
+.hig-tagline {
+    font-size: clamp(16px, 1.8vw, 21px);
+    font-style: italic;
+    color: #7a6a62;
+    line-height: 1.6;
+    margin-bottom: 36px;
+    font-weight: 400;
+}
+
+/* ── Body ── */
+.hig-body {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.9;
+    color: #5A4030;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1200px) {
+    .hig-inner {
+        padding: 0 60px 0 100px;
+    }
+    .hig-heading {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hig-section {
+        padding: 90px 0 70px;
+    }
+    .hig-inner {
+        padding: 0 40px;
+        max-width: 100%;
+    }
+    .hig-heading {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hig-section {
+        padding: 70px 0 50px;
+    }
+    .hig-inner {
+        padding: 0 20px;
+    }
+    .hig-heading {
+        font-size: 38px;
+    }
+    .hig-tagline {
+        font-size: 14px;
+    }
+    .hig-body {
+        text-align: justify;
+    }
+}

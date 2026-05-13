@@ -1,0 +1,43 @@
+.StageSection-container
+{
+    background-color: #EDE5D8;
+}
+
+.StageSection-container .italicContent
+{
+  font-style: italic;
+  color: rgba(20, 20, 20, 0.818);
+  font-size: 2rem;
+  border-left: 3px solid #B8944A;
+}
+
+.StageSection-container .box-italic
+{
+    font-style: italic;
+}
+
+.StageSection-container .wisdom-content-box
+{
+    background-color: #FDF9F4;
+    border-bottom: 2px solid #FDF9F4;
+    transition: .3s;
+}
+.StageSection-container .wisdom-content-box:hover
+{
+    background-color: #FDF9F4;
+    border-bottom: 2px solid #B8944A;
+}
+
+.StageSection-container .wisdom-content-box .number
+{
+    color: #F4EDDF!important;
+}
+
+.StageSection-container .winsdom-container .col-lg-4
+{
+    padding-left: 5px!important;
+}
+
+.StageSection-container .wisdom-content-box .body-paragraph{
+    font-size: .9rem;
+}

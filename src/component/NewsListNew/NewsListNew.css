@@ -1,0 +1,25 @@
+.NewsListNew-container
+{
+}
+
+.NewsListNew-container .page-btn-container button
+{
+    padding:3px 13px;
+    border: none;
+    background-color: white;
+    color: #2D2D2D;
+  
+}
+
+.NewsListNew-container .page-btn-container button .next-icon
+{
+    width: 15px;
+    max-height: 9px;
+    border: 1px solid black;
+}
+.NewsListNew-container .page-btn-container .active
+{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}

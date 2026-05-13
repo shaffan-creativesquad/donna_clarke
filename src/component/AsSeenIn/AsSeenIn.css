@@ -1,0 +1,16 @@
+.AsSeenIn-container
+{
+    border-bottom: 1px solid #F3EADB;
+}
+
+.AsSeenIn-container .seen-font
+{
+    color: #D0CBC4!important;
+    font-size: 19px;
+    font-style: italic;
+    transition: .3s;
+}
+.AsSeenIn-container .seen-font:hover
+{
+    color: #343332!important;
+}

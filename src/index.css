@@ -1,0 +1,306 @@
+* {
+  margin: 0; 
+  padding: 0;
+  scroll-behavior: smooth; 
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --burg: #4A1E2A;
+  --burg-2: #6B2D3C;
+  --burg-3: #2E1018;
+  --gold: #C4A070;
+  --gold-2: #DEB87A;
+  --gold-3: #6B4E2A;
+  --ivory: #FAF6EF;
+  --ivory-2: #F4EEE3;
+  --ivory-3: #EDE4D4;
+  --cream: #F8F3EA;
+  --mid: #5A4030;
+  --soft: #8A7060;
+  --border: #DED0C4;
+  --ink: #1A1410;
+  --g-gold: linear-gradient(135deg, #DEB87A 0%, #C4A070 100%);
+  --g-gold-full: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%);
+}
+
+
+
+.font-moda
+{
+   font-family: "Bodoni Moda", serif!important;
+}
+.font-playfair
+{
+    font-family: "Playfair Display", serif!important;
+}
+.font-raleway
+{
+  font-family: "Raleway", sans-serif!important;
+}
+
+.font-cormorant{
+font-family: 'Cormorant Garamond', Georgia, serif!important;
+}
+
+.color-dark
+{
+  color: #252525!important;
+}
+.color-light
+{
+  color: white!important;
+}
+.color-para-light
+{
+  color: rgba(255,255,255,.5)!important;
+}
+
+.color-gold{
+  color: #DEB87A!important;
+}
+.color-purple
+{
+  color: #4A1E2A!important;
+}
+.color-brown{
+  color:#C4A070!important;
+}
+
+.cursor-pointer
+{
+  cursor: pointer;
+}
+
+.standard-margin-space {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.standard-padding-space {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-section-heading { 
+  /* font-weight: 700; */
+  text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+.hero-section-heading span{ 
+  /* font-weight: 700; */
+  text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+
+.body-heading {
+  font-size: 5rem;
+  color: #080808;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+   font-family: "Playfair Display", serif;
+  }
+
+.hero-section-heading  
+{ 
+  font-size: 9rem;
+  color: #ffffff;
+  font-weight:400;
+  letter-spacing: 2px;
+    font-family: "Playfair Display", serif;
+}
+.hero-section-heading-small
+{
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+.hero-section-heading span {  font-family: "Playfair Display", serif;}
+  
+.body-paragraph { 
+  font-size: 15px;
+  color: #575757;
+  font-weight:normal;
+  text-transform: none;
+  line-height: 1.8;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-paragraph
+{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-genral-btn
+{
+    padding: 10px 22px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #000000;
+  border: none;
+  transition:.3s;
+}
+.hero-genral-btn:hover
+{
+  background: rgb(136, 136, 136);
+  color: black;
+
+}
+  
+
+.genral-btn{ 
+  padding: 10px 22px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background-color: #2C2416;
+  color: #ffffff;
+  border: none;
+  transition:.3s;
+}
+.genral-btn:hover{ 
+  background: #D4B066;
+  color: rgb(255, 255, 255);
+
+}
+.genral-btn-light{ 
+  
+    padding: 10px 22px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0);
+  color: #fefefe;
+  border: none;
+  transition:.3s;
+}
+.genral-btn-light:hover{ 
+  background: rgb(61, 61, 61);
+  color: white;
+
+}
+
+.gold-grad-btn
+{
+  background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%)!important;
+  color: black;
+}
+
+.gold-white-bordered-btn
+{
+  background: transparent!important;
+  border: 1px solid #B49D9E;
+  color: #B49D9E;
+}
+
+.gold-gold-bordered-btn
+{
+  background: transparent!important;
+  border: 1px solid #AB8462;
+  color: #AB8462;
+}
+
+.hero-sub-heading
+{
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.756);
+}
+.sub-heading
+{
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+}
+
+.sub-heading-line {
+
+  letter-spacing: 5px;
+}
+.sub-heading-line::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #DEB87A;
+}
+
+.genral-btn span {
+  margin-right: .4rem;
+}
+
+@media (max-width: 1250px) {
+  .body-heading  {
+    font-size: 40px;
+  }
+
+  .hero-section-heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 460px) {
+  .body-heading  {
+    font-size: 40px;
+  }
+ 
+  .hero-section-heading  {
+    font-size: 40px;
+  }
+
+  .body-paragraph {
+    
+  line-height: 1.2;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .body-heading  {
+    font-size: 40px;
+  }
+
+  .hero-section-heading  {
+    font-size: 32px;
+  }
+
+  .body-paragraph {
+    font-size: 14px;
+  }
+
+  .sub-heading {  
+    /* font-size: 12px;  */
+  } 
+}
+
+
+/* Width, color, and radius for the track */
+/* ── Scrollbar ───────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ivory-3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--burg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--burg-2);
+}

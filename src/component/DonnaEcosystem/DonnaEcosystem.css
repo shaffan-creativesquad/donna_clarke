@@ -1,0 +1,194 @@
+.ecosystem-section {
+    background-color: #FEFCF8;
+    padding: 110px 20px 100px;
+}
+
+.ecosystem-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+/* ── Eyebrow ─────────────────────────────────────────────── */
+
+.ecosystem-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.ecosystem-eyebrow-line {
+    width: 32px;
+    height: 1px;
+    background-color: #6B4E2A;
+    opacity: 0.4;
+}
+
+.ecosystem-eyebrow-text {
+    font-size: 9px;
+    letter-spacing: 5px;
+    color: #6B4E2A;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* ── Heading ─────────────────────────────────────────────── */
+
+.ecosystem-heading {
+    font-size: clamp(36px, 5.5vw, 72px);
+    font-weight: 400;
+    color: #1A1410;
+    margin: 0 0 30px;
+    line-height: 1.08;
+}
+
+.ecosystem-heading-accent {
+    font-style: italic;
+    color: #6B2D3C;
+}
+
+/* ── Body ────────────────────────────────────────────────── */
+
+.ecosystem-body {
+    max-width: 620px;
+    font-size: clamp(16px, 1.6vw, 20px);
+    line-height: 1.8;
+    color: #5A4030;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 0 64px;
+}
+
+/* ── Table ───────────────────────────────────────────────── */
+
+.ecosystem-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 60px;
+}
+
+.ecosystem-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ecosystem-table-header th {
+    background-color: #4A1E2A;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 9px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 18px 24px;
+    text-align: left;
+}
+
+.ecosystem-table-header th:first-child { width: 18%; }
+.ecosystem-table-header th:nth-child(2) { width: 58%; }
+.ecosystem-table-header th:last-child { width: 24%; }
+
+.ecosystem-table-row {
+    border-bottom: 1px solid rgba(106, 78, 42, 0.15);
+    transition: background-color 0.2s ease;
+}
+
+.ecosystem-table-row:hover {
+    background-color: #F5EBEE;
+}
+
+.ecosystem-table-row td {
+    padding: 28px 24px;
+    vertical-align: top;
+}
+
+.ecosystem-prog-name {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.prog-name-text {
+    font-size: clamp(15px, 1.3vw, 17px);
+    font-weight: 600;
+    color: #1A1410;
+    line-height: 1.3;
+}
+
+.prog-badge {
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    color: #6B2D3C;
+    font-weight: 600;
+}
+
+.ecosystem-prog-desc {
+    font-size: clamp(14px, 1.3vw, 17px);
+    line-height: 1.7;
+    color: #6B2D3C;
+    font-style: normal;
+}
+
+.ecosystem-prog-contact {
+    font-size: clamp(11px, 1vw, 13px);
+    color: #6B2D3C;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+/* ── CTA ─────────────────────────────────────────────────── */
+
+.ecosystem-cta-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.ecosystem-cta-btn {
+    background-color: #2A1520;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px 48px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.ecosystem-cta-btn:hover {
+    background-color: #3D1A24;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 991px) {
+    .ecosystem-container {
+        padding: 0 24px;
+    }
+    .ecosystem-table-header th:first-child { width: 30%; }
+    .ecosystem-table-header th:nth-child(2) { width: 45%; }
+    .ecosystem-table-header th:last-child { width: 25%; }
+}
+
+@media (max-width: 576px) {
+    .ecosystem-section {
+        padding: 72px 0 72px;
+    }
+    .ecosystem-heading {
+        font-size: 34px;
+    }
+    .ecosystem-body {
+        font-size: 16px;
+    }
+    .ecosystem-table-header th,
+    .ecosystem-table-row td {
+        padding: 16px 14px;
+    }
+    .ecosystem-cta-btn {
+        width: 100%;
+        padding: 18px 24px;
+    }
+}

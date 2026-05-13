@@ -1,0 +1,35 @@
+.BlogCard-container
+{
+
+}
+
+.BlogCard-container .anchor
+{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+    width: fit-content;
+}
+
+
+.BlogCard-container .title
+{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.BlogCard-container .date
+{
+    font-size: 16px;
+}
+
+
+@media(max-width:993px)
+{
+    .BlogCard-container .secondary-img-container
+    {
+        height: 200px;
+    }
+}

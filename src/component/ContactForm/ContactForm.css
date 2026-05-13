@@ -1,0 +1,53 @@
+.ContactForm-container
+{
+    background-image: url("../../../public/images/creatives/contact-hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ContactForm-container .body-heading
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.ContactForm-container .form
+{
+    background-color: white;
+}
+
+.ContactForm-container .input-field
+{
+    margin-top: 5px;
+    padding: 10px 8px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 7px;
+    
+}
+.ContactForm-container .input-field:focus
+{
+    outline: none;
+}
+
+.ContactForm-container .submit-btn
+{
+    background-color: #222222!important;
+    color: white;
+    width: fit-content;
+    padding:14px 60px;
+}
+
+.ContactForm-container .service-container .col-lg-6 div
+{
+    border: 1px solid white;
+    padding: 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+.ContactForm-container .service-container .col-lg-6 div:hover
+{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.447);
+    padding: 15px;
+}

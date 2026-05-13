@@ -1,0 +1,75 @@
+.ThirdContentSection-container
+{
+
+}
+
+.ThirdContentSection-container .sub-heading-line::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #B8944A;
+}
+
+.ThirdContentSection-container .italicContent
+{
+  font-style: italic;
+  color: rgba(20, 20, 20, 0.818);
+}
+
+.ThirdContentSection-container .bottom-box{
+    background-color: #EDE5D8;
+}
+
+.ThirdContentSection-container .bottom-box .color-gold
+{
+    font-style: italic;
+    font-size: 2.1rem;
+}
+
+.ThirdContentSection-container .ImageBox
+{
+    height: auto;
+    min-height: 700px;
+    width: 100%;
+    background-color: #DED6C6;
+    position: relative;
+}
+
+.ThirdContentSection-container .ImageBox::before {
+    content: 'DC';
+    position: absolute;
+   font-family: "Bodoni Moda", serif!important;
+    font-size: 200px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.02);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    pointer-events: none;
+    font-style: italic;
+    line-height: 1;
+}
+
+.ThirdContentSection-container .ImageBox .qouteContent
+{
+  max-width: 100%;
+  background-color: #F5EFE7;
+  color: rgba(0, 0, 0, 0.912);
+}
+.ThirdContentSection-container .ImageBox .qouteContent span
+{
+  color: #B8944A;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.ThirdContentSection-container .bg-purple
+{
+    background-color: #481D29;
+    text-transform: none!important;
+}

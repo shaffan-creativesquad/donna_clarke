@@ -1,0 +1,54 @@
+.WisdomSection-container
+{
+    background-color: #EDE5D8;
+}
+
+.WisdomSection-container .italicContent
+{
+  font-style: italic;
+  color: rgba(20, 20, 20, 0.818);
+  font-size: 2rem;
+  border-left: 3px solid #B8944A;
+}
+
+.WisdomSection-container .box-italic
+{
+    font-style: italic;
+}
+
+.WisdomSection-container .wisdom-content-box
+{
+    background-color: #FDF9F4;
+    border-top: 2px solid #FDF9F4;
+    transition: .3s;
+}
+.WisdomSection-container .wisdom-content-box:hover
+{
+    background-color: #FDF9F4;
+    border-top: 2px solid #B8944A;
+}
+
+.WisdomSection-container .wisdom-content-box .number
+{
+    color: #F4EDDF!important;
+}
+
+.WisdomSection-container .winsdom-container .col-lg-4
+{
+    padding-left: 5px!important;
+}
+
+.WisdomSection-container .wisdom-content-box .body-paragraph{
+    font-size: .9rem;
+}
+
+@media(max-width:996px)
+{
+    .WisdomSection-container .italicContent
+{
+  font-style: italic;
+  color: rgba(20, 20, 20, 0.818);
+  font-size: 1.2rem;
+  border-left: 3px solid #B8944A;
+}
+}

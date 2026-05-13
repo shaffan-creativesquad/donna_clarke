@@ -1,0 +1,78 @@
+.faq-container
+{
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+
+}   
+
+.faq-container .text-content
+{
+    text-align: center;
+}
+.faq-container .main-title
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #5A5A5A;
+}
+.faq-container .text-content
+{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+    color: #1e1e1e;
+}
+
+.faq-container .dropdown-box
+{
+    cursor:pointer;
+    width: 100%;
+    filter: drop-shadow(0px 3px 9px rgba(0,0,0,0.04));
+    background-color: #ffffff;
+    padding: 30px 30px;
+    border-radius: 0;
+}
+
+.faq-container .line-seprator{
+  width: 77%;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin: auto;
+
+}
+
+.faq-container .dropdown-box .box-head .title{
+    font-weight: 500;
+    color:  #282828;
+    font-size: 19px;
+}
+
+.faq-container .eye-icon
+{
+    width: 30px;
+    height: 30px;
+    filter: invert(.5);
+}
+
+@keyframes bottomBoxOpen {
+    from{
+        display: none;
+        transform: translateY(-3px);
+    }
+    to{
+       display: block;
+       transform: translateY(0px);
+    }
+}
+@keyframes bottomBoxClose {
+    from{
+        display: block;
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-3px);
+       display: none;
+    }
+}

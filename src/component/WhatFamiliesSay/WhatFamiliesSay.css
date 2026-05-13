@@ -1,0 +1,160 @@
+/* ================================================================
+   WhatFamiliesSay Section
+   ================================================================ */
+
+.families-say-section {
+    background-color: #F7F3EE; /* Matching the previous section's cream color */
+    padding: 100px 280px;
+    box-sizing: border-box;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+.families-say-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.families-say-eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.families-say-eyebrow-line {
+    display: inline-block;
+    width: 36px;
+    height: 1px;
+    background-color: #C4A8A0;
+}
+
+.families-say-eyebrow-text {
+    font-size: 9px;
+    letter-spacing: 6px;
+    color: #6A5A5A;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.families-say-title {
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #2E0E18;
+    margin: 0;
+}
+
+.families-say-title-em {
+    font-style: italic;
+    color: #7B3A4A;
+    font-weight: 400;
+}
+
+/* ── Grid ─────────────────────────────────────────────── */
+.families-say-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.families-say-card {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 20px; /* Padding helps the zoom effect feel contained */
+    background: transparent;
+}
+
+.families-say-card:hover {
+    transform: scale(1.03);
+}
+
+.families-say-card-top-line {
+    width: 100%;
+    height: 1px;
+    background-color: #D5C5C0;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.families-say-card:hover .families-say-card-top-line {
+    background-color: #7B3A4A;
+    height: 3px;
+}
+
+.families-say-stars {
+    color: #C4A070; /* Gold color */
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+.families-say-quote {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #5A4A4A;
+    font-style: italic;
+    margin: 0 0 40px 0;
+    flex-grow: 1;
+}
+
+.families-say-author-info {
+    position: relative;
+    padding-top: 20px;
+}
+
+.families-say-author-info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 1px;
+    background-color: #D5C5C0;
+}
+
+.families-say-author-name {
+    font-size: 11px;
+    font-weight: 700;
+    color: #5A4A4A;
+    margin: 0 0 6px 0;
+}
+
+.families-say-author-desc {
+    font-size: 10px;
+    color: #9E8E8E;
+    margin: 0;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 1200px) {
+    .families-say-section {
+        padding: 80px 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .families-say-section {
+        padding: 60px 40px;
+    }
+
+    .families-say-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .families-say-section {
+        padding: 50px 24px;
+    }
+
+    .families-say-title {
+        font-size: 40px;
+    }
+}

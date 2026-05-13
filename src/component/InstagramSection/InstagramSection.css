@@ -1,0 +1,92 @@
+.InstagramSection-container
+{
+    background-color: #E8DECE;
+    position: relative;
+    z-index: 1;
+}
+
+.InstagramSection-container .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.InstagramSection-container .delay-1 {
+    transition-delay: .1s;
+}
+
+.InstagramSection-container .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .7s ease, transform .7s ease;
+}
+
+.InstagramSection-container .social-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+}
+
+.InstagramSection-container .social-post {
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.InstagramSection-container .sp1 {
+    background: linear-gradient(135deg, #e8d0d6, #6b2d3c);
+}
+
+.InstagramSection-container .sp2{
+        background: linear-gradient(135deg, #d4b88a, #b89060);
+}
+
+.InstagramSection-container .sp3 {
+    background: linear-gradient(135deg, #E8D0D6, #C4A0A8);
+}
+
+.InstagramSection-container .sp4 {
+    background: linear-gradient(135deg, #e8d4b8, #c8a880);
+}
+
+.InstagramSection-container .sp5 {
+    background: linear-gradient(135deg, #2D0F1A, #6B2D3C);
+}
+
+.InstagramSection-container .sp-bg {
+    position: absolute;
+    inset: 0;
+    transition: transform .5s ease;
+}
+
+.InstagramSection-container .sp-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(44, 36, 22, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .3s;
+}
+
+.InstagramSection-container .sp-type {
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .8);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.InstagramSection-container .social-post:hover .sp-overlay {
+    background: rgba(44, 36, 22, 0.17); 
+}
+
+.InstagramSection-container .social-post:hover .sp-type {
+    opacity: 1;
+}
+
+.InstagramSection-container .social-post:hover .sp-bg {
+    transform: scale(1.1);
+}

@@ -1,0 +1,45 @@
+.BeautifulSoulsSection-container
+{
+    background: linear-gradient(
+    to right, 
+    #1A1410 0%, 
+    #1A1410 65%, 
+    #241315 65%, 
+    #241315 100%
+  );
+}
+
+.BeautifulSoulsSection-container .qoute-text
+{
+    border-left: 2px solid #B8944A;
+}
+
+.BeautifulSoulsSection-container .right-content-box
+{
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(184, 148, 74, .15);
+    padding: 40px;
+    position: relative;
+}
+
+.BeautifulSoulsSection-container .right-content-box .box{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.071);
+}
+
+.BeautifulSoulsSection-container .right-content-box .col-lg-6
+{
+    padding-right: 5px!important;
+}
+
+@media(max-width:996px)
+{
+    .BeautifulSoulsSection-container
+{
+    background: linear-gradient(
+    to right, 
+    #241315 0%, 
+    #241315 100%
+  );
+}
+}

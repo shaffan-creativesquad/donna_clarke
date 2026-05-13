@@ -1,0 +1,222 @@
+body{
+    background-color: #ffffff;
+}
+p,h1,h2,h3,h4,h5,h6,a,button,img,small
+{
+    user-select: none;
+}
+
+.home-page
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-gradient
+{
+    background-repeat: no-repeat!important;
+    background: radial-gradient(circle at 0% 50%, rgba(255, 255, 255, 0.157) 0%, #ffffff 25%);
+    background-size:100% 100%;
+}
+
+@media(min-width:1200px)
+{
+    .left-gradient
+    {
+        background-repeat: no-repeat!important;
+        background: radial-gradient(ellipse at 0% 50%, rgba(250, 250, 250, 0.109) 0%, #ffffff 60%);
+
+        background-size:30% 100%;
+    }
+
+}
+
+@media(max-width:992px)
+{
+    .left-gradient
+    {
+        background: radial-gradient(ellipse at 0% 60%, rgba(255, 255, 255, 0.157) 0%, #ffffff 60%);
+        background-size:40% 100%;
+    }
+}
+.left-gradient-upper
+{
+    background-repeat: no-repeat!important;
+    background: radial-gradient(circle at 5% 50%, rgba(255, 255, 255, 0.057) 0%, #00000000 25%);
+    background-size:100% 100%;
+}
+
+@media(min-width:1200px)
+{
+    .left-gradient-upper
+    {
+        background-repeat: no-repeat!important;
+        background: radial-gradient(ellipse at 0% 0%, rgba(255, 255, 255, 0.234) 0%, #00000008 60%);
+
+        background-size:40% 100%;
+    }
+
+}
+
+@media(max-width:992px)
+{
+    .left-gradient-upper
+    {
+        background: radial-gradient(ellipse at 0% 60%, rgba(113, 155, 199, 0.055) 0%, #ffffff00 60%);
+        background-size:40% 100%;
+    }
+}
+
+.right-gradient
+{
+    background-repeat: no-repeat!important;
+    background: radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0.157) 0%, #ffffff00 30%);
+
+    background-size:100% 100%;
+    background-position:right center;
+}
+
+@media(max-width:992px)
+{
+    .right-gradient
+    {
+        
+        background-size:100%;
+    }
+}
+.right-gradient-bottom
+{
+    background-repeat: no-repeat!important;
+    background: radial-gradient(circle at 100% 90%, rgba(255, 255, 255, 0.157) 0%, #ffffff00 30%);
+
+    background-size:100% 100%;
+    background-position:right center;
+}
+
+@media(max-width:992px)
+{
+    .right-gradient-bottom
+    {
+        
+        background-size:100%;
+    }
+}
+.bottom-gradient
+{
+    background-repeat: no-repeat!important;
+    background: radial-gradient(circle at left bottom, rgba(253, 254, 255, 0.077) 0%, rgba(255, 255, 255, 0.062) 56%, rgba(255, 255, 255, 0) 93%, #ffffff00 100%);
+
+    background-size:100% 100%;
+    background-position:left bottom;
+}
+
+@media(max-width:992px)
+{
+    .bottom-gradient
+    {
+        
+        background-size:100%;
+    }
+}
+
+.blog-Catagory .main-catagory-container
+{
+    background:#ffffff;
+    filter: drop-shadow(0px 3px 15px rgba(0,0,0,0.16));
+}
+.blog-Catagory .catagory-container
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0!important;
+}
+.blog-Catagory .active
+{
+    background-color: #729bc7;
+}
+.blog-Catagory .active p
+{
+    color: white!important;
+}
+.blog-Catagory .main-catagory-container .body-heading
+{
+    font-size: 15px!important;
+    font-weight: normal;
+    height: 100%;
+}
+    
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.coming-soon-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+   text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.brand-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: #a0a0a0;
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-size: clamp(3rem, 8vw, 4rem); 
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0;
+  color: #2a2a2a;
+  letter-spacing: -0.04em;
+}
+
+.divider {
+  width: 50px;
+  height: 1px;
+  background-color: #000000;
+  margin: 2rem 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #666666;
+  max-width: 450px;
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0;
+}
+
+.logo-img
+{
+    max-width:340px;
+}
+
+@media(max-width:996px)
+{
+    .logo-img
+{
+    max-width:200px;
+}
+}
+
+
+.coming-soon-container {
+  background-size: cover;
+  background-position: center;
+}

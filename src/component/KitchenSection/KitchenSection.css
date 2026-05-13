@@ -1,0 +1,34 @@
+.KitchenSection-container{
+
+}
+.KitchenSection-container .italicContent
+{
+  font-style: italic;
+  font-size: 1.3rem;
+  color: rgba(20, 20, 20, 0.818);
+  text-transform: none;
+}
+.KitchenSection-container .box
+{
+    background-color: #EDE5D8;
+}
+
+.KitchenSection-container .box-main-heading
+{
+    font-size: 2rem;
+}
+
+.KitchenSection-container .content-box
+{
+    background-color: #E8DECE;
+    transition: .3s;
+}
+.KitchenSection-container .content-box:hover
+{
+    background-color: #F0E4C8;
+}
+
+.KitchenSection-container .dc-name
+{
+    font-size: 2.5rem;
+}
