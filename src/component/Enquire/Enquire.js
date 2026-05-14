@@ -11,17 +11,17 @@ const Enquire = () => {
                     <div className="speak-hero-content">
                         <div className="ey ey-burg">Work With Donna</div>
                         <h1 className="display-h display-h-lt speak-hero-h1">
-                            Start the<br />
-                            <em>conversation here.</em>
+                            Every great outcome<br />
+                            <em>starts with a conversation.</em>
                         </h1>
                         <div className="speak-hero-divider"></div>
-                        <p className="speak-hero-lede" style={{ maxWidth: '560px' }}>
-                            The first conversation costs nothing. The right guidance at the right time changes everything. Donna takes on a limited number of individual engagements at any time because the work requires genuine attention, not a production line.
+                        <p className="speak-hero-lede inq-hero-lede">
+                            The right guidance at the right time changes everything. Donna takes on a limited number of individual engagements at any time because the work requires genuine attention. This is not a production line. Tell her what you are building — and she will tell you honestly whether she is the right person to help you build it.
                         </p>
                     </div>
                 </div>
             </div>
-
+    
             {/* ── Form Section ────────────────────────────────────────── */}
             <section className="sec-warm">
                 <div className="inq-inner">
@@ -29,39 +29,39 @@ const Enquire = () => {
                         
                         {/* Left sidebar */}
                         <div>
-                            <div className="ey">Contact Information</div>
-                            <h3 className="h3" style={{ color: 'var(--burg-3)', marginBottom: '20px' }}>Reach Donna directly.</h3>
+                            <div className="ey">Contact Donna Directly</div>
+                            <h3 className="h3 inq-sidebar-h3">Every enquiry receives a personal response.</h3>
                             <div className="thin-rule"></div>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', marginBottom: '32px' }}>
-                                <div><div className="h4">Consulting</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>consulting@donnaclarke.com</p></div>
-                                <div><div className="h4">Speaking</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>speaking@donnaclarke.com</p></div>
-                                <div><div className="h4">Hall of Champions</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>donna@donnaclarke.com</p></div>
-                                <div><div className="h4">Donations & Sponsorship</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>giving@donnaclarke.com</p></div>
-                                <div><div className="h4">Media & Press</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>media@donnaclarke.com</p></div>
-                                <div><div className="h4">Instagram</div><p style={{ fontSize: '13px', fontWeight: '300', color: 'var(--mid)' }}>@DonnaClarkesWorld</p></div>
+                            <div className="inq-contact-list">
+                                <div><div className="h4">Consulting</div><p className="inq-contact-detail">consulting@donnaclarke.com</p></div>
+                                <div><div className="h4">Speaking</div><p className="inq-contact-detail">speaking@donnaclarke.com</p></div>
+                                <div><div className="h4">Hall of Champions</div><p className="inq-contact-detail">donna@donnaclarke.com</p></div>
+                                <div><div className="h4">Donations & Sponsorship</div><p className="inq-contact-detail">giving@donnaclarke.com</p></div>
+                                <div><div className="h4">Media & Press</div><p className="inq-contact-detail">media@donnaclarke.com</p></div>
+                                <div><div className="h4">Instagram</div><p className="inq-contact-detail">@DonnaClarkesWorld</p></div>
                             </div>
 
                             <div className="thin-rule"></div>
-                            <div className="h4" style={{ marginBottom: '12px' }}>Charitable Donations</div>
-                            <div style={{ background: 'var(--burg)', border: '2px solid var(--gold)', padding: '20px', textAlign: 'center', marginBottom: '14px' }}>
-                                <div style={{ fontSize: '9px', fontWeight: '700', letterSpacing: '3px', textTransform: 'uppercase', color: 'rgba(250,246,239,.45)', marginBottom: '8px' }}>Charitable Registration</div>
-                                <div style={{ fontFamily: 'var(--serif)', fontSize: '22px', fontWeight: '500', color: 'var(--gold-2)' }}>[Charitable #]</div>
-                                <div style={{ fontSize: '11px', color: 'rgba(250,246,239,.3)', marginTop: '6px' }}>Hall of Champions Cotillion</div>
+                            <div className="h4 inq-support-title">Support Our Athletes</div>
+                            <div className="inq-charity-badge">
+                                <div className="inq-charity-label">Giving Programme Reference</div>
+                                <div className="inq-charity-number">[Charitable #]</div>
+                                <div className="inq-charity-org">Hall of Champions Cotillion</div>
                             </div>
-                            <p style={{ fontSize: '12px', fontWeight: '300', color: 'var(--soft)', lineHeight: '1.65' }}>
-                                All donations to the Hall of Champions Cotillion are eligible for an official charitable tax receipt issued within 48 hours.
+                            <p className="inq-charity-note">
+                                We have a giving programme for exceptional athletes regardless of financial status. Candidates are considered by referral and recommendation only. Contact giving@donnaclarke.com to learn more.
                             </p>
 
-                            <div style={{ marginTop: '28px' }}>
-                                <div className="pull-q" style={{ fontSize: '14px', borderColor: 'var(--burg)' }}>
-                                    This is not a transactional website. Donna does not sell here. She informs — so that when the right company, family, or institution is ready to engage, they arrive already understanding who she is and what she does.
+                            <div className="inq-pull-wrap">
+                                <div className="pull-q inq-pull-q">
+                                    "She is no longer available to be framed through simplified narratives. Her authorship is quieter than that — and far more deliberate."
                                 </div>
                             </div>
                         </div>
 
                         {/* Form */}
                         <div className="inq-form-wrap">
-                            <div className="form-section-title">Enquiry Information</div>
+                            <div className="form-section-title">Your Enquiry</div>
 
                             <div className="form-row">
                                 <div>
@@ -156,16 +156,16 @@ const Enquire = () => {
                             </div>
 
                             <div className="form-full">
-                                <label className="form-label">Development Goals</label>
-                                <div style={{ marginBottom: '10px' }}>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Athletic Development — technical and physical skills</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Mental Performance — confidence, pressure, identity</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Performance Nutrition — fuelling and meal planning</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Athlete Brand & NIL Strategy</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">College / Scholarship Positioning</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Professional Pathway Planning</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Parent Coaching / Family Support</label></div>
-                                    <div className="form-check-row"><input type="checkbox" className="form-check" /><label className="form-check-label">Hall of Champions — Character & Leadership</label></div>
+                                <label className="form-label">What You Are Building For</label>
+                                <div className="form-check-group">
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Athletic Development — structure and long-term pathway</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Mental Performance — identity, resilience, and preparation</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Performance Nutrition — the home as the first training ground</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Athlete Brand & NIL — identity built before it is needed</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">College / Scholarship Positioning</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Professional Pathway Planning</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Parent Coaching — the environment at home</label></div>
+                                    <div className="form-check-row"><input type="checkbox" className="inq-check" /><label className="form-check-label">Hall of Champions — Character, Scholarship & Excellence</label></div>
                                 </div>
                             </div>
 
@@ -174,11 +174,11 @@ const Enquire = () => {
 
                             <div className="form-full">
                                 <label className="form-label">Tell Donna About Your Enquiry <span>*</span></label>
-                                <textarea className="form-textarea" rows="5" placeholder="Share the context for your enquiry — the athlete's story, what you're working toward, and what prompted you to reach out to Donna today."></textarea>
+                                <textarea className="form-textarea" rows="5" placeholder="Tell Donna what you are building — the athlete's story, what you're working toward, what prompted you to reach out. The more honest the picture, the better she can respond."></textarea>
                             </div>
 
                             <div className="form-full">
-                                <label className="form-label">How Did You Hear About Donna Clarke?</label>
+                                <label className="form-label form-label--opt">How Did You Hear About Donna Clarke?</label>
                                 <select className="form-select">
                                     <option value="">Select one</option>
                                     <option>Personal referral — someone who has worked with Donna</option>
@@ -195,33 +195,35 @@ const Enquire = () => {
                             </div>
 
                             <div className="form-full">
-                                <label className="form-label">Preferred Method of First Contact</label>
+                                <label className="form-label form-label--opt">Preferred Method of First Contact</label>
                                 <select className="form-select">
                                     <option value="">Select preferred contact method</option>
                                     <option>Email</option>
                                     <option>Phone call</option>
+                                    <option>Video call (Zoom / Teams)</option>
+                                    <option>In-person meeting — Ajax / Durham Region</option>
                                     <option>No preference</option>
                                 </select>
                             </div>
 
                             <div className="form-divider"></div>
 
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '20px' }}>
-                                <input type="checkbox" className="form-check" style={{ marginTop: '2px' }} />
-                                <label className="form-check-label">I understand that Donna Clarke takes on a limited number of individual engagements at any time, and that this enquiry is the beginning of a conversation — not a commitment from either party.</label>
+                            <div className="inq-checkbox-row">
+                                <input type="checkbox" className="inq-check" />
+                                <label className="form-check-label">I understand that Donna takes on a limited number of individual engagements at any time, and that this enquiry is the beginning of a conversation — not a commitment from either party.</label>
                             </div>
 
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '28px' }}>
-                                <input type="checkbox" className="form-check" style={{ marginTop: '2px' }} />
-                                <label className="form-check-label">I would like to receive Donna Clarke's Sunday newsletter — The Champion's Letter. (Free. Personal. Donna writes every word.)</label>
+                            <div className="inq-checkbox-row inq-checkbox-row--last">
+                                <input type="checkbox" className="inq-check" />
+                                <label className="form-check-label">I would like to receive The Champion's Letter — Donna Clarke's Sunday newsletter. Free. Personal. She writes every word.</label>
                             </div>
 
-                            <div style={{ textAlign: 'center' }}>
-                                <button className="inq-submit-btn font-raleway" style={{ width: '100%', justifyContent: 'center' }}>
+                            <div className="inq-submit-wrap">
+                                <button className="inq-submit-btn font-raleway inq-submit-btn--full">
                                     Submit Enquiry
                                 </button>
-                                <p style={{ fontSize: '11px', color: 'var(--soft)', marginTop: '16px', fontWeight: '300' }}>
-                                    All enquiries receive a personal response within 3–5 business days. Your information is never shared or sold. Privacy Policy at donnaclarke.com/privacy.
+                                <p className="inq-submit-note">
+                                    All enquiries receive a personal response within 3–5 business days. Your information is never shared or sold.
                                 </p>
                             </div>
                         </div>

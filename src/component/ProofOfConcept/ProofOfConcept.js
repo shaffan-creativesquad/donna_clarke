@@ -7,7 +7,7 @@ const ProofOfConcept = () => {
             <div className="ProofOfConcept-left">
                 <div className="ProofOfConcept-subtitle-wrapper">
                     <div className="ProofOfConcept-subtitle-line"></div>
-                    <span className="ProofOfConcept-subtitle font-raleway">THE PROOF OF CONCEPT</span>
+                    <span className="ProofOfConcept-subtitle font-raleway">WHAT THIS PRODUCES</span>
                 </div>
                 
                 <h2 className="ProofOfConcept-title color-light font-playfair">
@@ -19,16 +19,16 @@ const ProofOfConcept = () => {
 
                 <div className="ProofOfConcept-text-block">
                     <p className="ProofOfConcept-description font-raleway">
-                        I did not raise an athlete. I raised a person who uses sport to reveal who they already are. Denzel has always known who he is. Donna Clarke is the mother of two extraordinary children: Meighen, a creative soul, and Denzel Clarke, center fielder for the Athletics in Major League Baseball — who made his MLB debut on May 23, 2025.
+                        Donna Clarke is the mother of Denzel Clarke, center fielder for the Athletics in Major League Baseball. He debuted on May 23, 2025, and hit his first career home run on May 31 against the Toronto Blue Jays at Rogers Centre — at home — while she watched from the stands.
                     </p>
                     <p className="ProofOfConcept-description">
-                        On May 31, Denzel hit his first career home run against his hometown Toronto Blue Jays at Rogers Centre. Donna was watching from the stands. The methodology that produced Denzel is the same one she brings to every family she works with.
+                        She did not raise a baseball player. She raised a person who uses sport to reveal who he already is. The methodology applied to Denzel across twenty years is the same one she brings to every family she works with. Not as a performance story. As a formation story.
                     </p>
                 </div>
 
                 <div className="ProofOfConcept-quote-container">
                     <p className="ProofOfConcept-quote font-raleway">
-                        "The system works. I know because I watched it work over 20 years — in my own household, on my own son."
+                        "Her authority rests in her understanding that environments determine results. She does not leave growth to chance."
                     </p>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const ProofOfConcept = () => {
                         <span className="ProofOfConcept-stat-value font-playfair">#1</span>
                         <div className="ProofOfConcept-stat-info">
                             <h4 className='font-raleway'>Center Fielder</h4>
-                            <p>Oakland Athletics · Major League Baseball</p>
+                            <p>Athletics · Major League Baseball</p>
                         </div>
                     </div>
                     
@@ -47,7 +47,7 @@ const ProofOfConcept = () => {
                         <span className="ProofOfConcept-stat-value font-playfair">May 23</span>
                         <div className="ProofOfConcept-stat-info">
                             <h4>MLB Debut</h4>
-                            <p>2025 Oakland Athletics</p>
+                            <p>2025 · Athletics</p>
                         </div>
                     </div>
 
@@ -60,10 +60,10 @@ const ProofOfConcept = () => {
                     </div>
 
                     <div className="ProofOfConcept-stat-item">
-                        <span className="ProofOfConcept-stat-value font-playfair">2024/26</span>
+                        <span className="ProofOfConcept-stat-value font-playfair">20 years</span>
                         <div className="ProofOfConcept-stat-info">
-                            <h4>Senior National Team</h4>
-                            <p>World Baseball Classic</p>
+                            <h4>Formation</h4>
+                            <p>The real timeline behind the result</p>
                         </div>
                     </div>
                 </div>

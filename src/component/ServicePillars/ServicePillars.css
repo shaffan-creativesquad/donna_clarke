@@ -1,12 +1,64 @@
 .service-pillars-section {
-    background-color: #FEFCF8; 
+    background-color: #FEFCF8;
     padding: 100px 0;
 }
 
 .service-pillars-container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 80px;
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.pillars-header {
+    margin-bottom: 70px;
+}
+
+.pillars-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.pillars-eyebrow-line {
+    display: inline-block;
+    width: 36px;
+    height: 1px;
+    background-color: #C0A880;
+    flex-shrink: 0;
+}
+
+.pillars-eyebrow-text {
+    font-size: 8.5px;
+    letter-spacing: 5px;
+    color: #C0A880;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pillars-title {
+    font-size: clamp(28px, 3.5vw, 50px);
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-weight: 400;
+    color: #1A1410;
+    line-height: 1.08;
+    margin: 0 0 28px 0;
+}
+
+.pillars-title-em {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-style: italic;
+    color: #6B2D3C;
+}
+
+.pillars-body {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #A89A8E;
+    max-width: 580px;
+    margin: 0;
 }
 
 .pillars-grid {
@@ -55,7 +107,7 @@
 .pillar-subtitle {
     font-size: 9px;
     letter-spacing: 3px;
-    color: #6B4E2A;
+    color: var(--gold-3);
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 8px;
@@ -63,7 +115,7 @@
 
 .pillar-title {
     font-size: 22px;
-    color: #4A1E2A;
+    color: var(--burg);
     margin: 0 0 12px 0;
     font-weight: 400;
 }
@@ -71,7 +123,7 @@
 .pillar-description {
     font-size: 14px;
     line-height: 1.8;
-    color: #5A4030;
+    color: var(--mid);
     margin-bottom: 14px;
     font-weight: 300;
 }
@@ -106,7 +158,7 @@
 .pillar-footer {
     font-size: 13px;
     line-height: 1.6;
-    color: #1A1410;
+    color: var(--burg-2);
     font-style: italic;
     margin: 0;
 }

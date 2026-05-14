@@ -4,81 +4,81 @@ import './ServicePillars.css';
 const pillars = [
     {
         number: '01',
-        subtitle: 'THE FOUNDATION',
+        subtitle: 'Structure Precedes Success',
         title: 'Athlete Development',
-        description: 'Athletes need more than training — they need direction. Development must evolve with age, growth, and readiness. Multi-sport in early years, smart specialisation at the right stage.',
+        description: 'Athletes need more than training. They need a pathway — one that evolves with age, growth, and readiness. Donna builds it around each athlete individually, ensuring physical, technical, and tactical progression compounds over time rather than plateauing prematurely.',
         points: [
-            'Physical, technical, and tactical progression over time',
-            'Multi-sport development in early years',
-            'Smart specialisation at the right stage',
-            'Family understanding of each phase'
+            'LTAD-compliant multi-year development planning',
+            'Multi-sport development in the foundation years',
+            'Smart specialisation at the right developmental stage',
+            'Family education on each phase of the journey'
         ],
-        footer: 'Without a clear pathway, talent is often mismanaged or missed entirely.'
+        footer: 'Without a clear pathway, talent is often mismanaged before it is ever fully expressed.'
     },
     {
         number: '02',
-        subtitle: 'THE SEPARATOR',
+        subtitle: 'The Infrastructure',
         title: 'Mental Performance',
-        description: 'Most athletes train their bodies — few are taught how to train their minds. How athletes think determines how far they go. Mental performance is often the difference-maker.',
+        description: 'She builds this first — not last. Identity under pressure, resilience when results fluctuate, the mental pattern that either holds or fractures when the moment arrives. Most coaches address mental performance reactively. Donna builds it as the load-bearing structure from the beginning.',
         points: [
-            'Confidence, focus, and emotional control',
-            'Preparation for pressure environments',
-            'Resilience when performance fluctuates',
-            'Identity shaped beyond wins and losses'
+            'Individual mental performance assessment',
+            'Pre-competition preparation and identity work',
+            'Resilience building — who am I when results go wrong?',
+            'Parent coaching on the words that build versus the words that break'
         ],
-        footer: 'Mental performance is often the difference-maker.'
+        footer: 'The athlete who arrives prepared mentally arrived that way because someone built it in early.'
     },
     {
         number: '03',
-        subtitle: 'THE FUEL',
+        subtitle: 'Home Is the First Institution',
         title: 'Performance Nutrition',
-        description: 'Growing athletes have unique nutritional needs that directly impact performance, recovery, and development. The kitchen is the second training room.',
+        description: 'Growing athletes have nutritional needs categorically different from adult athletes — and almost no one is addressing this practically. Donna graduated with Honours in this area specifically because the gap between the science and the family kitchen was too large. She closes it with meals that work on a Tuesday evening, not just on competition day.',
         points: [
-            'Energy, growth, and injury prevention',
-            'Sustainable daily habits for athletic families',
-            'Nutrition aligned with training demands',
-            'Practical, informed family choices'
+            'Nutritional assessment for the developing athlete',
+            'Practical meal planning for athletic families',
+            'Competition and training-day fuelling protocols',
+            'The Champion\'s Table cookbook and digital resources'
         ],
-        footer: 'Without proper fuel, development slows — or breaks down.'
+        footer: 'What happens at the table shapes what is available on the field.'
     },
     {
         number: '04',
-        subtitle: 'THE PRESENCE',
+        subtitle: 'Formation Before Visibility',
         title: 'Athlete Identity & Brand',
-        description: 'Every athlete is building a reputation long before they realise it. Character, values, and personal identity must be shaped intentionally — before scouts, coaches, and institutions form their own impression.',
+        description: 'Every young athlete is already building a reputation long before they realise it. Character, values, and public identity must be built deliberately before visibility arrives — because when recognition comes ahead of foundation, the fracture is public. Donna helps athletes build the infrastructure that can carry what their ability earns.',
         points: [
-            'Character, values, and personal identity',
-            'How athletes are seen by others',
-            'NIL and recruitment preparation',
-            'Intentional digital and public presence'
+            'Character, values, and personal identity formation',
+            'NIL education and preparation for ages 13–18',
+            'Social media presence and content strategy',
+            'Profile development for college recruitment and scholarship positioning'
         ],
-        footer: 'An athlete’s identity travels further than their performance.'
+        footer: 'An athlete\'s identity travels further than their performance.'
     },
     {
         number: '05',
-        subtitle: 'THE DIRECTION',
+        subtitle: 'Preparation Over Performance',
         title: 'Pathway Awareness',
-        description: 'Talent alone does not determine outcomes — understanding the system matters. The professional pathway, navigated correctly from the beginning, changes everything.',
+        description: 'Talent alone does not determine outcomes — understanding the system matters. The families who navigate the professional development pathway correctly are the ones who began understanding it before they needed to. Donna helps families make informed decisions at key stages, before the pressure of those decisions makes clarity difficult.',
         points: [
-            'How progression works within sport',
-            'Informed decisions at key stages',
-            'Timing, exposure, and opportunity',
-            'Avoiding costly misinformation'
+            'Professional pathway planning and timeline strategy',
+            'Club, college, and professional programme navigation',
+            'Contract and representation guidance',
+            'Reducing the costly mistakes caused by misinformation'
         ],
-        footer: 'The wrong decision at the wrong time can limit long-term potential.'
+        footer: 'The wrong decision at the wrong time can limit long-term potential in ways that are difficult to recover.'
     },
     {
         number: '06',
         subtitle: 'THE MULTIPLIER',
         title: 'Family & Environment',
-        description: 'The athlete’s environment — especially at home — is one of the strongest predictors of success. The most important coach in your athlete\'s life is you. The parent-athlete relationship determines the emotional quality of the entire career.',
+        description: 'The athlete\'s environment — especially at home — is one of the strongest predictors of long-term success. Parental involvement that is informed, values-aligned, and intentionally cultivated is the variable most consistently linked to sustained athletic development. Donna works on both sides of this relationship.',
         points: [
-            'Confidence, motivation, and emotional stability',
-            'Responding to success and failure',
-            'Communication habits that support development',
-            'Family alignment with the athlete’s needs'
+            '“Nobody Told Me” Parent Masterclass — live and virtual',
+            '“The Car Ride Home” — what to say in the 20 minutes that matter most',
+            'Family alignment with the athlete\'s development framework',
+            'Communication strategies for parents at every level'
         ],
-        footer: 'No athlete develops in isolation — the environment either supports growth or restricts it.'
+        footer: 'No athlete develops in isolation. The environment either supports growth or restricts it.'
     }
 ];
 
@@ -86,6 +86,25 @@ const ServicePillars = () => {
     return (
         <section className="service-pillars-section">
             <div className="service-pillars-container">
+
+                {/* ── Header ── */}
+                <div className="pillars-header">
+                    <div className="pillars-eyebrow">
+                        <span className="pillars-eyebrow-line"></span>
+                        <span className="pillars-eyebrow-text font-raleway">The Six-Pillar Framework</span>
+                    </div>
+                    <h2 className="pillars-title">
+                        What Donna builds<br />
+                        <em className="pillars-title-em">around every athlete.</em>
+                    </h2>
+                    <p className="pillars-body font-playfair">
+                        Donna works with athletes ages 8 to 18 and the families who are raising them.
+                        Every engagement begins with the Integrated Development Plan — a complete
+                        map of where the athlete is across all pillars, and where the gaps are. She does not
+                        allow performance to outpace structure. She has seen what happens when it does.
+                    </p>
+                </div>
+
                 <div className="pillars-grid">
                     {pillars.map((pillar, index) => (
                         <div key={index} className="pillar-card">

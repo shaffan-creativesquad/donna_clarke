@@ -31,10 +31,11 @@ function Footer() {
                 {/* Column 1 */}
                 <div className="new-footer-col-1">
                     <h2 className="new-footer-logo font-playfair">Donna Clarke</h2>
-                    <p className="new-footer-subtitle font-raleway">THE OLYMPIAN SPORTS MOM</p>
+                    <p className="new-footer-subtitle font-raleway">The Olympian Sports Mom · Architect of Structured Development</p>
                     <p className="new-footer-bio font-raleway">
-                        1984 Canadian Olympian. Certified Mental Performance Coach. Culinary School Honours Graduate. Certified Marketing & Branding for Athletes. M.Sc High Performance Coaching (in pursuit). Proud Mom of Denzel Clarke, Oakland Athletics MLB. Founder, Athlos Collective - Ajax, Ontario.
+                        1984 Canadian Olympian. Certified Mental Performance Coach. Culinary School Honours Graduate. Certified Marketing & Branding for Athletes. M.Sc High Performance Coaching (in pursuit). Proud Mom of Denzel Clarke, Athletics MLB.
                     </p>
+                    <p className="new-footer-founder mt-4 font-raleway">Founder, Athlos Collective · Ajax, Ontario</p>
                 </div>
 
                 {/* Column 2 */}
@@ -42,10 +43,10 @@ function Footer() {
                     <h4 className="new-footer-heading font-raleway">ABOUT</h4>
                     <ul className="new-footer-links font-raleway">
                         <li onClick={() => { navigate('/'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>About Donna</li>
-                        <li onClick={() => navigate('/how-i-got-here')}>How I Got Here</li>
-                        <li onClick={() => handleNavToSection('six-credentials')}>The Six Credentials</li>
-                        <li>Denzel's Story</li>
-                        <li>The Athlos Collective</li>
+                        <li onClick={() => navigate('/foundation')}>The Foundation</li>
+                        <li onClick={() => handleNavToSection('six-credentials')}>The Work</li>
+                        <li>Hall of Champions</li>
+                        <li>The Athlete Collective</li>
                     </ul>
                 </div>
 
@@ -53,7 +54,7 @@ function Footer() {
                 <div className="new-footer-col">
                     <h4 className="new-footer-heading font-raleway">WORK WITH DONNA</h4>
                     <ul className="new-footer-links font-raleway">
-                        <li onClick={() => navigate('/services')}>Services</li>
+                        <li onClick={() => navigate('/work')}>Development Consulting</li>
                         <li onClick={() => navigate('/speaking')}>Speaking</li>
                         <li onClick={() => navigate('/hall-of-champions')}>Hall of Champions</li>
                         <li onClick={() => navigate('/enquire')}>Submit an Enquiry</li>
@@ -78,7 +79,7 @@ function Footer() {
 
             <div className="new-footer-bottom font-raleway">
                 <div className="new-footer-copyright">
-                    © 2028 Donna Clarke · donnaclarke.com · An Athlos Collective Programme · Ajax, Ontario · All rights reserved
+                    © 2026 Donna Clarke · donnaclarke.com · An Athlete Collective Programme · Ajax, Ontario · All rights reserved
                 </div>
                 <div className="new-footer-legal">
                     <span>Privacy</span>

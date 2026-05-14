@@ -99,6 +99,11 @@
     color: #ffffff;
 }
 
+.new-footer-founder{
+    font-size: 11px;
+    line-height: 1.9;
+    margin: 0;
+}
 /* Responsive */
 @media (max-width: 1024px) {
     .new-footer-content {

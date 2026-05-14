@@ -18,7 +18,7 @@ const BottomCTA = () => {
                     </button>
                     <button 
                         className="btn-explore-services font-raleway" 
-                        onClick={() => navigate('/services')}
+                        onClick={() => navigate('/work')}
                     >
                         EXPLORE SERVICES
                     </button>

@@ -28,11 +28,19 @@
 }
 
 .form-section-title {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
   color: var(--burg-3);
+  padding-bottom: 16px;
   margin-bottom: 28px;
-  font-weight: 500;
+  border-bottom: 1px solid var(--border);
+}
+
+.form-row > div:last-child .form-label {
+  color: var(--gold-3);
 }
 
 .form-row {
@@ -92,9 +100,34 @@
   cursor: pointer;
 }
 
-.form-check {
-  margin-top: 4px;
-  accent-color: var(--burg);
+.inq-check {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  min-width: 12px;
+  max-width: 12px;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.inq-check:checked {
+  background: var(--burg);
+  border-color: var(--burg);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 5l2.5 2.5 4.5-4.5' stroke='%23fff' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inq-check:focus {
+  outline: none;
+  border-color: var(--gold);
 }
 
 .form-check-label {
@@ -105,7 +138,7 @@
 }
 
 .inq-submit-btn {
-  background: var(--burg);
+  background: #4a1e2a;
   color: #fff;
   border: none;
   padding: 16px 40px;
@@ -233,4 +266,112 @@
   .inq-form-wrap {
     padding: 24px 16px;
   }
+}
+
+/* ── Support / Charity Badge ────────────────────────────── */
+.inq-support-title {
+  margin-bottom: 16px;
+}
+
+.inq-charity-badge {
+  background: var(--burg);
+  border: 1px solid var(--gold);
+  padding: 28px 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inq-charity-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 12px;
+}
+
+.inq-charity-number {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.inq-charity-org {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.5px;
+}
+
+.inq-charity-note {
+  font-size: 13px;
+  color: var(--mid);
+  line-height: 1.65;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+/* ── Pull Quote ─────────────────────────────────────────── */
+.inq-pull-wrap {
+  margin-top: 8px;
+}
+
+.inq-pull-q {
+  font-style: italic;
+}
+
+/* ── Contact List ───────────────────────────────────────── */
+.inq-contact-detail {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--mid);
+}
+
+/* ── Checkbox Group ─────────────────────────────────────── */
+.form-check-group {
+  margin-bottom: 10px;
+}
+
+/* ── Optional label modifier ────────────────────────────── */
+.form-label--opt {
+  color: var(--gold-3);
+}
+
+/* ── Bottom checkboxes ──────────────────────────────────── */
+.inq-checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.inq-checkbox-row--last {
+  margin-bottom: 28px;
+}
+
+/* ── Submit area ────────────────────────────────────────── */
+.inq-submit-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.inq-submit-btn--full {
+  width: 100%;
+  background: #4A1E2A;
+}
+
+.inq-submit-btn--full:hover {
+  background: var(--burg);
+}
+
+.inq-submit-note {
+  font-size: 12px;
+  color: var(--mid);
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
 }

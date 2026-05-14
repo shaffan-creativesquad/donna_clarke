@@ -5,24 +5,24 @@ function ThreeWorldsSection() {
     const data = [
         {
             number: "I",
-            tagline: "THE OLYMPIAN",
-            title: <>Formidable. Complete. <i>Legacy.</i></>,
-            description: "She stood on the track at the 1984 Los Angeles Olympic Games as a Canadian heptathlete — seven events, two days, one message: the complete human being outperforms the specialist. Four decades later, that conviction still shapes everything she builds. Donna moves through the world with the quiet certainty of someone who has already stood at the start line of the biggest moment of her life — and competed.",
-            link: "HER OLYMPIC STORY —"
+            tagline: "Structure Precedes Success",
+            title: <>She does not wait for pressure to force <i>structure into place.</i></>,
+            description: "In a culture that celebrates performance before preparation, Donna reinforces what discipline looks like before anyone is watching. Strong outcomes are not accidental — they are the product of environments built to carry the people inside them. This is not rigid control. It is the quiet, consistent work of someone who has already seen what thin foundations produce when pressure finally arrives.",
+            link: "Her Foundation —"
         },
         {
             number: "II",
-            tagline: "THE CHEF · THE NURTURER",
+            tagline: "Home Is the First Institution",
             title: <>The kitchen is the <i>second training room.</i></>,
-            description: "Culinary school. Honours. A specialisation in sport meals and performance nutrition for growing athletes. Donna went to culinary school because the gap between sports nutrition science and the family kitchen was enormous — and no one was closing it. She closed it. The Champion's Table — her cookbook and nutrition philosophy — is where elite sport science meets the elegance of a meal prepared with intention and love for the people who matter most.",
-            link: "EXPLORE THE CHAMPION'S TABLE —"
+            description: "Donna does not outsource the formation of her children to systems that do not share her values. The household rhythm, the meals, the conversations, the standards — these are not peripheral to athletic development. They are its foundation. Her culinary school Honours degree and nutrition philosophy are not lifestyle additions. They are expressions of a conviction that what happens at the table shapes what happens on the field, in the classroom, and in the boardroom",
+            link: "The Work —"
         },
         {
             number: "III",
-            tagline: "THE MENTAL PERFORMANCE COACH",
-            title: <>What lives in the mind <i>shapes the career.</i></>,
-            description: "Certified Mental Performance Coach. The competitive edge most athletes never develop — built into the foundation, deliberately, from age eight. Donna went into mental performance coaching first, not last. For athletes in the 8-18 window, mental performance is identity development. The way a twelve-year-old thinks about themselves in competition becomes the template for every performance they will give for the next decade. Donna works in that template — before it is set.",
-            link: "MENTAL PERFORMANCE CONSULTING —"
+            tagline: "Preparation Over Performance",
+            title: <>Readiness before <i>recognition.</i></>,
+            description: "Her philosophy does not avoid competition. It strengthens people for it. Mental performance coaching — which Donna pursued first, not last — is not a finishing touch. It is the infrastructure from which everything else runs. Identity formed before pressure. Standards established before visibility. The athlete who arrives prepared for the moment is the one who was built for it before anyone could see it coming.",
+            link: "How She Works —"
         }
     ];
 

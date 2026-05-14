@@ -10,13 +10,6 @@ import BottomCTA from '../component/BottomCTA/BottomCTA';
 const ServicesScreen = () => {
     return (
         <div style={{ backgroundColor: '#FEFCF8' }}>
-            <Helmet>
-                <title>Services — Donna Clarke</title>
-                <meta
-                    name="description"
-                    content="Strategic athlete development through a six-pillar integrated system. Professional management and consulting for the modern athlete."
-                />
-            </Helmet>
 
             <Header />
 

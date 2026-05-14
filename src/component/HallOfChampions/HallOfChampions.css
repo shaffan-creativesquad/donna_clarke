@@ -5,7 +5,7 @@
 
 /* ─── Page ───────────────────────────────────────────────── */
 .hoc-page {
-    background: var(--burg-3);
+    background: #0F1E36;
 }
 
 /* ─── Shared inner ───────────────────────────────────────── */
@@ -19,9 +19,9 @@
    HERO
 ══════════════════════════════════════════════════════════ */
 .hoc-hero {
-    background: linear-gradient(155deg, #2E1018 0%, #4A1E2A 50%, #6B2D3C 100%);
+    background: linear-gradient(155deg, #0A1628 0%, #0F1E36 40%, #1B3F7A 100%);
     padding: clamp(60px, 8vw, 100px) clamp(24px, 6vw, 80px);
-    border-bottom: 3px solid var(--gold);
+    border-bottom: 3px solid #C4A020;
     position: relative;
     overflow: hidden;
     margin-top: 80px;
@@ -49,21 +49,46 @@
     z-index: 1;
 }
 
+/* Badge Wrapper */
+.hoc-tag-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.hoc-tag-accent-line {
+    width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, #E0BB40 50%, transparent 100%);
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 8px rgba(224, 187, 64, 0.5);
+}
+
 /* Badge */
 .hoc-tag-box {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: rgba(196, 160, 112, .12);
-    border: 1px solid rgba(196, 160, 112, .35);
-    padding: 6px 18px;
-    margin-bottom: 20px;
+    background: #c4a0201f;
+    border: 1px solid #c4a02066;
+    padding: 8px 24px;
+    margin-bottom: 14px;
     font-size: 9px;
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: var(--gold-2);
+    color: #E0BB40;
     animation: hcPulse 3s ease-in-out infinite;
+}
+
+.hoc-tag-subtext {
+    font-size: 11px;
+    color: #c4a02073;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+    align-self: flex-start;
+    margin-left: 4px;
 }
 
 @keyframes hcPulse {
@@ -109,12 +134,14 @@
     line-height: .92;
     color: var(--ivory);
     margin: 0 0 18px;
+    font-family: 'Playfair Display', Georgia, serif !important;
 }
 
 .hoc-hero-heading em {
     display: block;
     font-style: italic;
     color: rgba(232, 210, 176, .8);
+    font-family: 'Playfair Display', Georgia, serif !important;
 }
 
 /* Gold line */
@@ -143,30 +170,9 @@
     line-height: 1.5;
 }
 
-.hoc-warn {
-    background: #c4a0701a;
-    border: 1px solid rgba(196, 160, 112, .2);
-    border-left: 4px solid var(--gold);
-    padding: 24px 30px;
-    margin-top: 32px;
-}
 
-.hoc-text-gold {
-    color: var(--gold);
-    font-weight: 700;
-}
 
-.hoc-founding-note-text {
-    font-size: 13px;
-    font-weight: 400;
-    color: rgba(250, 246, 239, .8);
-    line-height: 1.65;
-    margin: 0;
-}
 
-.hoc-founding-note-text strong {
-    color: var(--gold-2);
-}
 
 /* Right CTA card */
 .hoc-founding-card {
@@ -219,7 +225,8 @@
 .hoc-gold-btn:hover {
     opacity: .88;
     transform: translateY(-1px);
-    color: var(--ink); /* Keep original color */
+    color: var(--ink);
+    /* Keep original color */
 }
 
 /* Secondary email button */
@@ -243,51 +250,10 @@
 
 .hoc-email-btn:hover {
     background: rgba(250, 246, 239, .12);
-    color: rgba(196, 160, 112, .9); /* Slightly brighter gold, not green */
+    color: rgba(196, 160, 112, .9);
+    /* Slightly brighter gold, not green */
 }
 
-/* Timeline */
-.hoc-timeline-label {
-    font-size: 9.5px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--gold-3);
-    margin-bottom: 12px;
-}
-
-.hoc-timeline-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-}
-
-.hoc-timeline-item {
-    background: rgba(196, 160, 112, .1);
-    border: 1px solid rgba(196, 160, 112, .22);
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.hoc-timeline-val {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 22px;
-    font-weight: 400;
-    color: var(--gold-2);
-    display: block;
-}
-
-.hoc-timeline-sub {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: rgba(196, 160, 112, .5);
-    display: block;
-}
 
 /* ══════════════════════════════════════════════════════════
    STATS BAR
@@ -297,13 +263,13 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2px;
     padding: 0 20px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 60px auto;
     box-sizing: border-box;
 }
 
 .hoc-stat-item {
-    background: rgba(250, 246, 239, .05);
+    background: #c4a02014;
     border: 1px solid rgba(196, 160, 112, .15);
     padding: 22px;
     text-align: center;
@@ -317,7 +283,7 @@
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 34px;
     font-weight: 400;
-    color: var(--gold-2);
+    color: #E0BB40;
     line-height: 1;
 }
 
@@ -326,14 +292,14 @@
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(196, 160, 112, .4);
+    color: #c4a02073;
 }
 
 /* ══════════════════════════════════════════════════════════
    PILLARS SECTION
 ══════════════════════════════════════════════════════════ */
 .hoc-pillars-section {
-    background: var(--burg-3);
+    background: #0F1E36;
     padding: 0 clamp(24px, 6vw, 80px) 44px;
 }
 
@@ -359,17 +325,32 @@
 
 /* Section heading (dark bg) */
 .hoc-section-heading {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(28px, 3.5vw, 46px);
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: clamp(24px, 3vw, 42px);
     font-weight: 400;
     line-height: .92;
     color: var(--ivory);
     margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .hoc-section-heading em {
     font-style: italic;
+    font-family: 'Playfair Display', Georgia, serif !important;
     color: rgba(232, 210, 176, .8);
+}
+
+.hoc-section-body {
+    max-width: 580px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.75;
+    color: #faf6ef8c;
+    font-style: italic;
 }
 
 .hoc-pillars-grid {
@@ -379,15 +360,15 @@
 }
 
 .hoc-pillar-card {
-    background: rgba(250, 246, 239, .05);
-    border: 1px solid rgba(196, 160, 112, .12);
+    background: #faf6ef0a;
+    border: 1px solid #c4a0201f;
     padding: 30px 26px;
     transition: background .3s, border-color .3s;
 }
 
 .hoc-pillar-card:hover {
-    background: rgba(196, 160, 112, .07);
-    border-color: rgba(196, 160, 112, .3);
+    background: #222C3A;
+    border-color: #645532;
 }
 
 .hoc-pillar-label {
@@ -395,7 +376,7 @@
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: var(--gold-2);
+    color: #E0BB40;
     margin-bottom: 10px;
 }
 
@@ -418,7 +399,7 @@
    DIVISIONS SECTION
 ══════════════════════════════════════════════════════════ */
 .hoc-divisions-section {
-    background: var(--burg-3);
+    background: #0F1E36;
     padding: 44px clamp(24px, 6vw, 80px);
 }
 
@@ -434,11 +415,12 @@
     border: 1px solid rgba(196, 160, 112, .12);
     padding: 24px;
     text-align: center;
-    transition: background .3s;
+    transition: background .3s, border-color .3s;
 }
 
 .hoc-div:hover {
-    background: rgba(196, 160, 112, .06);
+    background: #222C3A;
+    border-color: #645532;
 }
 
 .hoc-div-tag {
@@ -454,7 +436,7 @@
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 20px;
     font-weight: 400;
-    color: var(--gold-2);
+    color: #d9b640;
     margin: 0 0 4px;
     font-style: italic;
 }
@@ -468,7 +450,7 @@
    GAINS SECTION
 ══════════════════════════════════════════════════════════ */
 .hoc-info-section {
-    background: var(--burg-3);
+    background: #0F1E36;
     padding: 0 clamp(24px, 6vw, 80px) 44px;
 }
 
@@ -489,7 +471,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--gold);
+    color: #d9b640;
     margin-bottom: 12px;
 }
 
@@ -504,7 +486,7 @@
    QUOTE SECTION
 ══════════════════════════════════════════════════════════ */
 .hoc-quote-section {
-    background: var(--burg-3);
+    background: #0F1E36;
     padding: 44px clamp(24px, 6vw, 80px) 88px;
 }
 
@@ -575,8 +557,8 @@
 
 /* Sponsor heading */
 .hoc-sponsor-heading {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(28px, 3.5vw, 48px);
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: clamp(26px, 3.2vw, 44px);
     font-weight: 400;
     line-height: .92;
     color: var(--ink);
@@ -585,7 +567,9 @@
 
 .hoc-sponsor-heading em {
     font-style: italic;
-    color: var(--burg-2);
+    font-family: 'Playfair Display', Georgia, serif !important;
+    color: var(--ink);
+    white-space: nowrap;
 }
 
 /* Gold rule */
@@ -685,7 +669,8 @@
 .hoc-sponsor-btn:hover {
     background: var(--burg-2);
     transform: translateY(-2px);
-    color: #fff; /* Keep text white */
+    color: #fff;
+    /* Keep text white */
 }
 
 /* Charity badge (right column) */
@@ -699,8 +684,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--burg);
-    border: 2px solid var(--gold);
+    background: #0A1628;
     padding: 22px 36px;
     text-align: center;
 }
@@ -718,13 +702,13 @@
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 28px;
     font-weight: 500;
-    color: var(--gold-2);
+    color: #d9b640;
     letter-spacing: 1px;
 }
 
 .hoc-charity-org {
     font-size: 11px;
-    color: rgba(250, 246, 239, .4);
+    color: #fff;
     margin-top: 6px;
 }
 
@@ -821,6 +805,8 @@
 
     .hoc-sponsor-btn {
         width: 100%;
+        font-size: 8px;
+        letter-spacing: 1.5px;
     }
 }
 
@@ -828,58 +814,62 @@
    BUTTONS & FOOTER BAR
 ══════════════════════════════════════════════════════════ */
 .hoc-footer-bar {
-  text-align: center;
-  padding: 48px 24px;
-  background: var(--ivory-2);
-  border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 48px 24px;
+    background: var(--ivory-2);
+    border-top: 1px solid var(--border);
 }
 
 .hoc-btn-burg {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 13px 28px;
-  background: var(--burg);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
-  transition: background .25s, transform .15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 28px;
+    background: var(--burg);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background .25s, transform .15s;
 }
+
 .hoc-btn-burg:hover {
-  background: var(--burg-2);
-  transform: translateY(-1px);
-  color: #fff; /* Keep text white */
+    background: var(--burg-2);
+    transform: translateY(-1px);
+    color: #fff;
 }
 
 .hoc-btn-burg-outline {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 12px 26px;
-  border: 1.5px solid var(--burg);
-  background: transparent;
-  color: var(--burg);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background .25s, color .25s;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 26px;
+    border: 1.5px solid var(--burg);
+    background: transparent;
+    color: var(--burg);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .25s, color .25s;
 }
+
 .hoc-btn-burg-outline:hover {
-  background: var(--burg);
-  color: #fff;
+    background: var(--burg);
+    color: #fff;
 }
 
 @media (max-width: 576px) {
-  .hoc-btn-burg, .hoc-btn-burg-outline {
-    width: 100%;
-    justify-content: center;
-    margin-right: 0 !important;
-    margin-bottom: 12px;
-  }
+
+    .hoc-btn-burg,
+    .hoc-btn-burg-outline {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0 !important;
+        margin-bottom: 12px;
+    }
 }

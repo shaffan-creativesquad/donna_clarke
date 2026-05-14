@@ -22,11 +22,11 @@ const AboutDonna = () => {
             <div className="AboutDonna-content-container">
                 <div className="AboutDonna-subtitle-wrapper">
                     <div className="AboutDonna-subtitle-line"></div>
-                    <span className="AboutDonna-subtitle">ABOUT DONNA</span>
+                    <span className="AboutDonna-subtitle">Who She Is</span>
                 </div>
                 
                 <h2 className="AboutDonna-title">
-                    The Olympian who <em>never stopped</em> studying the game.
+                    A woman who knows how to set a house in order and <em>build people inside it.</em>
                 </h2>
                 <div className="AboutDonna-title-line"></div>
 
@@ -35,24 +35,24 @@ const AboutDonna = () => {
                 
                 <div className="AboutDonna-text-block">
                     <p className="AboutDonna-description">
-                        I stood in the tunnel of the 1984 Los Angeles Olympics knowing one thing: I was not supposed to be there — and I was exactly where I was meant to be. Six months earlier I was an average gymnast. Something greater than my own ability had been building me into something I could not yet see. The heptathlon does not reward the specialist. It rewards the complete human being — and I believe that is no accident. That conviction has never left me. It led me from the track, to my kitchen, to my son's career, and now to every family I have the privilege of walking alongside.
+                        Donna Clarke builds strong homes that produce strong people. Sport, nutrition, coaching, and education are expressions of that. But underneath all of it is the same instinct — to create order, establish standards, and prepare people for the environments they will eventually step into. She does not leave development to chance. She studies what a child needs, what a household requires, and what a system lacks. Then she builds accordingly.
                     </p>
                     <p className="AboutDonna-description">
-                        Donna is a 1984 Canadian Olympian, a certified Mental Performance Coach, a culinary school Honours graduate specialising in athlete nutrition, a certified Marketing and Branding professional for athletes, and in pursuit of her Master's in High Performance Coaching. She raised her son, Denzel Clarke — now center fielder for the Athletics in MLB — using all of these disciplines simultaneously. Not as separate tracks. As one integrated system.
+                        Her authority does not rest on what she achieved. Those are outcomes. Her authority rests in her understanding that environments determine results. As a young athlete she built discipline to protect her peace. As an Olympian she learned that excellence is never accidental. As a mother she refused to hand over her children's formation to systems that did not align with her values. The pattern has been consistent across every season of her life.
                     </p>
                 </div>
                 
                 <div className="AboutDonna-quote-block">
                     <div className="AboutDonna-quote-wrapper">
                         <p className="AboutDonna-quote">
-                            "The years between 8 and 18 are not a performance window. They are a human formation window. I work in that window because what is built there cannot be rebuilt later."
+                            "Her mandate is rooted in formation. Children and families should be shaped intentionally — not left to adapt to whatever system is loudest or most convenient."
                         </p>
                     </div>
-                    <p className="AboutDonna-attribution">— Donna Clarke</p>
+                    <p className="AboutDonna-attribution">— Donna Clarke Brand Direction</p>
 
                     
                     <div className="AboutDonna-button-wrapper">
-                        <Link to="/how-i-got-here" className="AboutDonna-button gold-grad-btn text-decoration-none">HER FULL STORY</Link>
+                        <Link to="/foundation" className="AboutDonna-button gold-grad-btn text-decoration-none">THE FULL STORY</Link>
                     </div>
                 </div>
 

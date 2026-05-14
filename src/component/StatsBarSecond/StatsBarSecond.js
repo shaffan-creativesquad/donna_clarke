@@ -5,20 +5,20 @@ function StatsBarSecond() {
 
     const data=[
         {
-            title:"1984",
-            content:"Olympic Legacy · Los Angeles"
+            title:"Structure",
+            content:"Precedes Success"
         },
         {
-            title:"M.Sc",
-            content:"High Performance Coaching"
+            title:"Home",
+            content:"Is the First Institution"
         },
         {
-            title:"8–18",
-            content:"The Formation Window"
+            title:"Preparation",
+            content:"Over Performance"
         },
         {
-            title:"MLB",
-            content:"Denzel Clarke · Oakland Athletics"
+            title:"Formation",
+            content:"Before Visibility"
         },
     ]
 

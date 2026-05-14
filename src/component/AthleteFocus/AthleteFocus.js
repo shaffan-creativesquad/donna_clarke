@@ -4,42 +4,40 @@ import './AthleteFocus.css';
 const stages = [
     {
         ageLabel: 'AGES 8–12',
-        title: 'Foundations',
-        subtitle: 'THE FOUNDATION YEARS',
-        body: 'Multi-sport development, physical literacy, the joy of sport, and the first formation of athletic identity. Mental performance habits appropriate to age, nutrition education through the family, and the parent-athlete relationship patterns that will shape the next decade.',
+        title: 'Foundation',
+        subtitle: 'Structure Before Specialisation',
+        body: 'Multi-sport development, physical literacy, the joy of sport, and the first careful formation of athletic identity. The parent-athlete relationship patterns established in this window will shape the next decade. This is where the foundation is built — quietly, without pressure, before anyone needs it to hold anything.',
         items: [
-            'Multi-sport athlete development consulting',
+            'Multi-sport development — breadth before depth',
             'Mental performance foundations — age-appropriate',
-            'Parent coaching: establishing the right household culture',
-            'Nutrition education for the whole family',
+            'Household culture: establishing the right environment early',
+            'Nutrition as formation, not fuel',
         ],
         colorClass: 'stage-foundations',
     },
     {
         ageLabel: 'AGES 13–15',
         title: 'Identity',
-        subtitle: 'THE IDENTITY YEARS',
-        body: 'The most underserviced developmental window in youth sport. Physical development accelerates, competitive pressure increases, and the athlete begins to construct a public identity. Mental performance work is most impactful here. Brand and social identity work begins.',
+        subtitle: 'The Most Underserved Window',
+        body: 'Physical development accelerates, competitive pressure increases, and the athlete begins constructing a public identity — whether intentionally or not. Mental performance work is most impactful here. Brand and identity work begins. Specialisation decisions are made — well or poorly. This window is where preparation either holds or exposes its weaknesses.',
         items: [
-            'Athlete development planning — specialisation decisions',
-            'Mental performance coaching: identity and resilience',
-            'Brand and social identity introduction',
-            'NIL education — what is available now',
-            'Parent coaching: managing the identity years',
+            'Specialisation decisions — made with evidence, not urgency',
+            'Mental performance: identity, resilience, self-concept under pressure',
+            'Brand and social identity — intentional from the beginning',
+            'NIL awareness: what is already available now',
         ],
         colorClass: 'stage-identity',
     },
     {
-        ageLabel: 'AGES 15–18',
+        ageLabel: 'AGES 16–18',
         title: 'Threshold',
-        subtitle: 'THE PROFESSIONAL THRESHOLD',
-        body: 'College recruitment, scholarship applications, agent relationships, first contracts, NIL activation. Most athletes and families are completely unprepared for this window. Donna prepares them in advance so that when the opportunities arrive, the athlete can take them.',
+        subtitle: 'Prepared Before the Moment',
+        body: 'College recruitment, scholarship applications, agent relationships, first contracts, NIL activation. Most athletes and families arrive at this window without the infrastructure it requires. Donna\'s work in this window is not reactive — she prepares families for it in the years before they need to be ready, so that when the opportunity arrives, they can take it without being caught unprepared.',
         items: [
-            'Sports management: professional pathway planning',
-            'Athlete brand and NIL activation strategy',
+            'Professional pathway planning and timeline strategy',
+            'Athlete brand and NIL activation',
             'College and scholarship application positioning',
-            'Contract and representation guidance',
-            'Transition planning: amateur to professional',
+            'Transition planning: the move from amateur to professional',
         ],
         colorClass: 'stage-threshold',
     },
@@ -52,18 +50,16 @@ const AthleteFocus = () => {
                 <div className="athlete-focus-container">
                     <div className="athlete-focus-eyebrow">
                         <span className="focus-eyebrow-line"></span>
-                        <span className="focus-eyebrow-text font-raleway">THE ATHLETE DONNA WORKS WITH</span>
+                        <span className="focus-eyebrow-text font-raleway">The Formation Window</span>
                     </div>
 
                     <h2 className="athlete-focus-heading font-playfair">
                         Ages 8 to 18.<br />
-                        <em className="focus-heading-accent font-playfair">The formation window.</em>
+                        <em className="focus-heading-accent">Where the decisions that matter most are made.</em>
                     </h2>
 
-                    <p className="athlete-focus-body font-playfair">
-                        Not the finished product. The one being formed right now. This is where the decisions
-                        that matter most are made — and where the quality of support available to most
-                        athletes is most inadequate.
+                    <p className="athlete-focus-body">
+                        Donna specialises in this window not because she cannot work outside it — but because this is where the quality of formation available to most young athletes is most inadequate relative to the stakes. The patterns established here do not stay in sport. They travel into every domain of a person's life.
                     </p>
                 </div>
             </section>

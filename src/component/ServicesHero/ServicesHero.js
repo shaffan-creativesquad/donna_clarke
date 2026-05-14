@@ -7,22 +7,19 @@ const ServicesHero = () => {
             <div className="services-hero-container">
                 <div className="services-hero-eyebrow">
                     <span className="hero-eyebrow-line"></span>
-                    <span className="hero-eyebrow-text font-raleway">SPORTS MANAGEMENT & CONSULTING</span>
+                    <span className="hero-eyebrow-text font-raleway">The Work</span>
                 </div>
 
                 <h1 className="services-hero-heading font-playfair">
-                    Six pillars.<br />
-                    <em className="hero-heading-accent font-playfair">One integrated system.</em>
+                    Athlete development is not about doing more.<br />
+                    <em className="hero-heading-accent font-playfair">It is about developing completely.</em>
                 </h1>
 
-                <div className="services-hero-body font-playfair">
+                <div className="services-hero-body">
                     <p>
-                        Athlete development is not about doing more. It is about developing completely.
+                        When physical ability, mindset, nutrition, environment, and identity develop together — athletes are not only better prepared to perform. They are better equipped to grow, adapt, and sustain success over time. Talent alone does not determine outcomes. Structure does.
                     </p>
-                    <p>
-                        When these six pillars are aligned, athletes are not only better prepared to perform 
-                        — they are better equipped to grow, adapt, and sustain success over time.
-                    </p>
+                    
                 </div>
             </div>
         </section>

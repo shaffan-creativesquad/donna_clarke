@@ -6,27 +6,27 @@ import { Link } from "react-router-dom";
 const heroData = [
   {
     title: "1984 Los Angeles Olympics",
-    subtitle: "Heptathlon · Team Canada · Pickering, Ontario"
+    subtitle: "Heptathlon · Team Canada"
   },
   {
     title: "Master of Science — High Performance Coaching",
-    subtitle: "Graduate-level athlete development science"
+    subtitle: "Athlete development science · In pursuit"
   },
   {
     title: "Certified Mental Performance Coach",
-    subtitle: "Athletes Ages 8–18"
+    subtitle: "The foundation, not the finish"
   },
   {
     title: "Culinary School — Honours Graduate",
-    subtitle: "Sport nutrition specialist · The Champion's Table"
+    subtitle: "The kitchen is the second training room"
   },
   {
     title: "Certified Marketing & Branding — Athletes",
-    subtitle: "NIL strategy · Athlete identity development"
+    subtitle: "Identity built before it is needed"
   },
   {
     title: "Proud Mom of Denzel Clarke",
-    subtitle: "Center Fielder · Oakland Athletics · MLB"
+    subtitle: "Center Fielder · Athletics · MLB"
   }
 ];
 
@@ -65,45 +65,33 @@ const Hero = () => {
 
                 {/* Sub-title */}
                 <p className={`${styles.heroSub} font-playfair fst-italic mb-3`}>
-                  Olympian · Master Coach · Consultant · Proud Mom of a Pro Athlete
+                  Architect of Structured Development · Sports Management & Consulting
                 </p>
 
                 {/* Tagline */}
                 <p className={`${styles.heroTagline} font-playfair fst-italic mb-4`}>
-                  The career you build between 8 and 18 determines everything that comes after.
-                  I know — because I lived it, studied it, raised it, and now I help the next
-                  generation build it right.
+                  The families who shape champions do not leave development to chance. Neither does she.
                 </p>
 
                 {/* Body */}
                 <p className={`${styles.heroBody} font-raleway mb-4`}>
-                  I am called The Olympian Sports Mom because the two things that defined me most —
-                  competing for Canada on the world's biggest stage and raising a Major League Baseball
-                  player — turned out to be the same education. An Olympian does not become a great
-                  sports mother by coincidence. She becomes one because she knows, from the inside,
-                  that forming an athlete and forming a human being are not two different projects.
-                  They are one. I have been working on that project for 40 years. Now I'll build it
-                  with you.
+                  Donna Clarke does not build athletes. She builds the environments — at home, at the table, in the training room — that produce people who are strong enough to become what they are capable of. Everything else is an outcome of that.
                 </p>
 
-                {/* CTA Buttons row 1 */}
-                <div className="d-flex align-items-center flex-wrap gap-3 mb-3">
+                {/* CTA Buttons — all 3 in one row */}
+                <div className={`${styles.btnHocRow} d-flex align-items-center gap-3 pb-4 mb-4 w-100`}>
                   <Link
-                    to="/how-i-got-here"
+                    to="/foundation"
                     className={`${styles.btnGold} font-raleway text-decoration-none text-center`}
                   >
-                    Discover Her Story
+                    Her Foundation
                   </Link>
                   <Link
-                    to="/services"
+                    to="/work"
                     className={`${styles.btnOutlineLight} font-raleway text-decoration-none text-center`}
                   >
-                    Explore Services
+                    The Work
                   </Link>
-                </div>
-
-                {/* CTA Buttons row 2 — Hall of Champions */}
-                <div className={`${styles.btnHocRow} d-flex align-items-center pb-4 mb-4 w-100`}>
                   <Link
                     to="/hall-of-champions"
                     className={`${styles.btnOutlineGold} font-raleway text-decoration-none text-center`}
@@ -150,8 +138,7 @@ const Hero = () => {
                   <div className={styles.quoteFloat}>
                     <div className={`${styles.quoteFloatInner} p-4`}>
                       <p className="font-playfair fst-italic mb-2">
-                        The years between 8 and 18 are not a performance window.
-                        They are a human formation window.
+                        Strong outcomes are the product of disciplined systems — not accidental momentum.
                       </p>
                       <cite className="font-raleway">Donna Clarke</cite>
                     </div>

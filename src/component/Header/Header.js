@@ -46,8 +46,8 @@ const Header = () => {
           <nav className="new-header-nav d-none d-lg-flex">
                         <ul className="new-header-nav-list font-raleway">
               <li><Link to="/" className={window.location.pathname === "/" ? "active-link" : ""} onClick={() => setMenuState(false)}>ABOUT</Link></li>
-              <li><Link to="/how-i-got-here" className={window.location.pathname === "/how-i-got-here" ? "active-link" : ""} onClick={() => setMenuState(false)}>HOW I GOT HERE</Link></li>
-              <li><Link to="/services" className={window.location.pathname === "/services" ? "active-link" : ""} onClick={() => setMenuState(false)}>SERVICES</Link></li>
+              <li><Link to="/foundation" className={window.location.pathname === "/foundation" ? "active-link" : ""} onClick={() => setMenuState(false)}>The Foundation</Link></li>
+              <li><Link to="/work" className={window.location.pathname === "/work" ? "active-link" : ""} onClick={() => setMenuState(false)}>The Work</Link></li>
               <li><Link to="/hall-of-champions" className={window.location.pathname === "/hall-of-champions" ? "active-link" : ""} onClick={() => setMenuState(false)}>HALL OF CHAMPIONS</Link></li>
               <li><Link to="/speaking" className={window.location.pathname === "/speaking" ? "active-link" : ""} onClick={() => setMenuState(false)}>SPEAKING</Link></li>
               <li><Link to="/enquire" className={window.location.pathname === "/enquire" ? "active-link" : ""} onClick={() => setMenuState(false)}>ENQUIRE</Link></li>
@@ -71,8 +71,8 @@ const Header = () => {
           <div className="py-3 d-lg-none">
                         <ul className="resp-nav-list w-100 gap-4 pl-4 font-raleway">
               <li><Link to="/" className={window.location.pathname === "/" ? "active-link" : ""} onClick={() => setMenuState(false)}>ABOUT</Link></li>
-              <li><Link to="/how-i-got-here" className={window.location.pathname === "/how-i-got-here" ? "active-link" : ""} onClick={() => setMenuState(false)}>HOW I GOT HERE</Link></li>
-              <li><Link to="/services" className={window.location.pathname === "/services" ? "active-link" : ""} onClick={() => setMenuState(false)}>SERVICES</Link></li>
+              <li><Link to="/foundation" className={window.location.pathname === "/foundation" ? "active-link" : ""} onClick={() => setMenuState(false)}>HOW I GOT HERE</Link></li>
+              <li><Link to="/work" className={window.location.pathname === "/work" ? "active-link" : ""} onClick={() => setMenuState(false)}>SERVICES</Link></li>
               <li><Link to="/hall-of-champions" className={window.location.pathname === "/hall-of-champions" ? "active-link" : ""} onClick={() => setMenuState(false)}>HALL OF CHAMPIONS</Link></li>
               <li><Link to="/speaking" className={window.location.pathname === "/speaking" ? "active-link" : ""} onClick={() => setMenuState(false)}>SPEAKING</Link></li>
               <li><Link to="/enquire" className={window.location.pathname === "/enquire" ? "active-link" : ""} onClick={() => setMenuState(false)}>ENQUIRE</Link></li>

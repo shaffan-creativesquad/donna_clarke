@@ -5,33 +5,33 @@ import { useNavigate } from 'react-router-dom';
 const programmes = [
     {
         name: 'Hall of Champions',
-        badge: 'Premium · Founding Enrolment Open',
-        description: '44-week leadership, character, scholarship, and excellence programme for athletes ages 8–18. Three divisions. 230 students maximum. Founding Family enrolment opens January 2026.',
+        badge: 'Registration Open',
+        description: '44-week formation programme. Character, scholarship, and excellence — the complete development of the young athlete\'s public and private identity. Three divisions. 230 students maximum.',
         contact: 'donnaclarke.com/hallofchampions',
     },
     {
         name: 'Quest Sports Canada',
         badge: null,
-        description: 'Middle School–High School sports development. Provincial, national, and world-class competitor pathway.',
+        description: 'High School sports development programme for athletes ages 8–18. Structured pathway for athletes pursuing provincial, national, and world-class competition.',
         contact: 'questsportscanada.club',
     },
     {
         name: 'Donna Clarke Consulting',
         badge: null,
-        description: 'Individual & family sports management consulting · Ages 8–18. In-person or virtual across Canada and internationally.',
+        description: 'Individual, family, and sports team management consulting. The full six-pillar Integrated Development Plan applied to one athlete, family, or team environment. In-person or virtual across Canada and internationally.',
         contact: 'donnaclarke.com/consulting',
     },
     {
         name: 'Donna Clarke Speaks',
         badge: null,
-        description: 'Keynotes · Workshops · Parent Masterclass · Corporate engagements. Three signature presentations.',
+        description: 'Keynotes and workshops for sports families, schools, and corporate organisations. Drawn from real experience, not theory.',
         contact: 'donnaclarke.com/speaking',
     },
     {
         name: "The Champion's Table",
         badge: null,
-        description: 'Performance nutrition cookbook and cooking content for athletic families. Sport meals built for the 8–18 developmental window.',
-        contact: 'athloscollective.com/kitchen',
+        description: 'Performance nutrition for athletic families. The conviction that the kitchen is the second training room — made practical for real life.',
+        contact: 'athletecollective.com/kitchen',
     },
 ];
 
@@ -44,16 +44,15 @@ const DonnaEcosystem = () => {
 
                 <div className="ecosystem-eyebrow">
                     <span className="ecosystem-eyebrow-line"></span>
-                    <span className="ecosystem-eyebrow-text font-raleway">PROGRAMMES & PARTNERSHIPS</span>
+                    <span className="ecosystem-eyebrow-text font-raleway">Programmes</span>
                 </div>
 
-                <h2 className="ecosystem-heading font-playfair">
-                    The <em className="ecosystem-heading-accent font-playfair">Donna Clarke</em> ecosystem.
+                <h2 className="ecosystem-heading">
+                    The Donna Clarke <em className="ecosystem-heading-accent font-playfair">ecosystem.</ em> 
                 </h2>
 
-                <p className="ecosystem-body font-playfair">
-                    Everything Donna does connects to everything else. An athlete she works with
-                    individually benefits from the same framework she teaches across all her programmes.
+                <p className="ecosystem-body ">
+                    Each programme is an expression of the same conviction — that structured environments produce resilient people. They are not separate offerings. They are connected parts of one architecture.
                 </p>
 
                 <div className="ecosystem-table-wrap">
@@ -61,7 +60,7 @@ const DonnaEcosystem = () => {
                         <thead>
                             <tr className="ecosystem-table-header">
                                 <th className="font-raleway">PROGRAMME</th>
-                                <th className="font-raleway">DESCRIPTION</th>
+                                <th className="font-raleway">What It Builds</th>
                                 <th className="font-raleway">CONTACT</th>
                             </tr>
                         </thead>

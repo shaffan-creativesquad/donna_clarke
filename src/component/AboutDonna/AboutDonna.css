@@ -236,4 +236,10 @@
     .AboutDonna-image-info {
         width: 90%;
     }
+    .AboutDonna-title {
+        font-size: 34px;
+    }
+    .AboutDonna-title em {
+        white-space: normal;
+    }
 }

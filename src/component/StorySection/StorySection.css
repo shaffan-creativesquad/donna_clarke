@@ -1,5 +1,5 @@
 .StorySection-container {
-    padding: 80px 0;
+    padding: 100px 0 90px;
     background-color: #FDF9F4;
     text-align: center;
 }
@@ -8,59 +8,78 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
 }
 
 .StorySection-separator .line {
     height: 1px;
-    background-color: #C0A880;
+    background-color: rgba(192, 168, 128, 0.45);
     flex-grow: 1;
-    max-width: 300px;
 }
 
 .StorySection-separator .text {
-    padding: 0 20px;
+    padding: 0 24px;
     font-size: 9px;
-    letter-spacing: 4px;
-    color: #DEB87A;
-    font-weight: 600;
+    letter-spacing: 5px;
+    color: #C0A880;
+    font-weight: 700;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .StorySection-title {
-    font-size: 64px;
-    color: #252525;
-    margin-bottom: 0;
-    line-height: 1.1;
+    font-size: clamp(48px, 6.5vw, 88px);
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-weight: 400;
+    color: #1A1410;
+    line-height: 1.08;
+    margin-bottom: 36px;
 }
 
-.StorySection-name {
-    font-size: 64px;
-    color: #4A1E2A;
+.StorySection-accent {
     font-style: italic;
-    line-height: 1.1;
+    font-family: 'Playfair Display', Georgia, serif !important;
+    color: #6B2D3C;
+}
+
+.StorySection-body {
+    font-size: clamp(15px, 1.5vw, 19px);
+    font-style: italic;
+    color: #8A7060;
+    line-height: 1.8;
+    max-width: 580px;
+    margin: 0 auto;
+    font-weight: 300;
 }
 
 @media (max-width: 991px) {
-
-    .StorySection-title,
-    .StorySection-name {
-        font-size: 40px;
-    }
-
     .StorySection-separator .line {
-        max-width: 100px;
+        max-width: 120px;
     }
 }
 
 @media (max-width: 576px) {
-
-    .StorySection-title,
-    .StorySection-name {
-        font-size: 32px;
+    .StorySection-container {
+        padding: 70px 0 60px;
+        text-align: left;
     }
 
-    .StorySection-separator .line {
+    .StorySection-separator {
+        justify-content: flex-start;
+    }
+
+    .StorySection-separator .line:last-child {
         display: none;
+    }
+
+    .StorySection-separator .line:first-child {
+        flex-grow: 0;
+        width: 28px;
+    }
+
+    .StorySection-body {
+        font-size: 15px;
+        padding: 0 8px;
+        margin: 0;
     }
 }

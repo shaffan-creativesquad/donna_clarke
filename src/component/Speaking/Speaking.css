@@ -2,7 +2,7 @@
 
 /* ── Hero ───────────────────────────────────────────────── */
 .speak-hero {
-  background: var(--burg-3);
+  background: #4a1e2a;
   padding: clamp(60px, 8vw, 100px) clamp(24px, 6vw, 80px);
   border-bottom: 3px solid var(--gold);
 }
@@ -21,7 +21,7 @@
 }
 
 .speak-hero-h1 {
-  font-size: clamp(38px, 5.5vw, 70px);
+  font-size: clamp(44px, 6vw, 80px);
   margin-bottom: 24px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .speak-hero-lede {
-  font-family: var(--elegant);
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
   font-style: italic;
   font-size: clamp(16px, 1.8vw, 20px);
   color: rgba(250, 246, 239, 0.6);
@@ -220,7 +220,7 @@
 
 /* ── Shared Typography ───────────────────────────────────── */
 .display-h {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif !important;
   font-size: clamp(28px, 4vw, 48px);
   font-weight: 400;
   line-height: 0.95;
@@ -234,6 +234,7 @@
 
 .display-h em {
   font-style: italic;
+  font-family: 'Playfair Display', Georgia, serif !important;
   color: #6B2D3C;
 }
 

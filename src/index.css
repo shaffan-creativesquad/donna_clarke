@@ -17,6 +17,7 @@
   --ivory-3: #EDE4D4;
   --cream: #F8F3EA;
   --mid: #5A4030;
+  --brown:#8d7658;
   --soft: #8A7060;
   --border: #DED0C4;
   --ink: #1A1410;
@@ -42,6 +43,7 @@
 .font-cormorant{
 font-family: 'Cormorant Garamond', Georgia, serif!important;
 }
+
 
 .color-dark
 {

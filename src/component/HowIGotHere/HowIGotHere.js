@@ -8,24 +8,22 @@ const HowIGotHere = () => {
 
                 <div className="hig-eyebrow">
                     <span className="hig-eyebrow-line"></span>
-                    <span className="hig-eyebrow-text font-raleway">HOW I GOT HERE</span>
+                    <span className="hig-eyebrow-text font-raleway">Anchoring Authorship in Stewardship and Structure</span>
                 </div>
 
                 <h2 className="hig-heading font-playfair">
-                    Every credential<br />
-                    <em className="hig-heading-em font-playfair">tells a story.</em>
+                    She has always <br /> been 
+                    <em className="hig-heading-em font-playfair"> this builder.</em>
                 </h2>
 
                 <p className="hig-tagline font-cormorant">
-                    Mine started on a track in Los Angeles in 1984 — and it did not end there.
+                    The titles and credentials are not the beginning of the story. They are evidence of it.
                 </p>
 
                 <p className="hig-body font-raleway">
-                    Sports management and consulting is a field full of people who read about sport.
-                    I participated in it at the highest level, studied it at the graduate level, watched
-                    my son navigate it as a professional, and spent years helping athletes navigate the
-                    parts of their career that no one else was paying attention to. Here is the honest version.
+                    There is a kind of authority that does not need to announce itself. It is built, quietly, over decades — from conviction rather than recognition, from responsibility rather than ambition. Donna Clarke's public work is not something newly invented. It is something that has been lived repeatedly and is now being made visible with intention.
                 </p>
+                <p className="hig-body font-raleway mt-4">This is the honest version of how she got here — not a list of accomplishments, but a map of the decisions behind them.</p>
             </div>
         </section>
     );

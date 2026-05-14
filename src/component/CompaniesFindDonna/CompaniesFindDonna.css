@@ -3,7 +3,8 @@
    ================================================================ */
 
 .companies-section {
-    background-color: #512533; /* Dark burgundy color based on the image */
+    background-color: #512533;
+    /* Dark burgundy color based on the image */
     padding: 100px 100px;
     position: relative;
     overflow: hidden;
@@ -13,11 +14,11 @@
 
 .companies-bg-text {
     position: absolute;
-    bottom: -20px; 
+    bottom: -20px;
     left: 30%;
     font-size: 140px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.03); 
+    color: rgba(255, 255, 255, 0.03);
     white-space: nowrap;
     pointer-events: none;
     user-select: none;
@@ -40,7 +41,7 @@
 
 .companies-title {
     font-size: 52px;
-    color: #F7F3EE; 
+    color: #F7F3EE;
     margin-bottom: 24px;
     font-weight: 400;
 }
@@ -48,12 +49,13 @@
 .companies-title-em {
     font-style: italic;
     font-weight: 400;
+    color: #EDE4D4;
 }
 
 .companies-description {
     font-size: 13.5px;
     line-height: 1.85;
-    color: rgba(247, 243, 238, 0.55); 
+    color: rgba(247, 243, 238, 0.55);
     margin: 0;
     max-width: 520px;
 }
@@ -79,7 +81,7 @@
 
 .btn-gold {
     background: linear-gradient(135deg, #B58A51 0%, #D4B272 50%, #B58A51 100%);
-    color: #2E0E18; 
+    color: #2E0E18;
 }
 
 .btn-gold:hover {
@@ -105,13 +107,13 @@
         align-items: flex-start;
         gap: 60px;
     }
-    
+
     .companies-bg-text {
         font-size: 120px;
         left: 5%;
         bottom: 0;
     }
-    
+
     .companies-right {
         width: 100%;
         max-width: 400px;
