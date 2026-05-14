@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProofOfConcept.css';
+import FadeUp from '../FadeUp/FadeUp';
 
 const ProofOfConcept = () => {
     return (
@@ -10,10 +11,12 @@ const ProofOfConcept = () => {
                     <span className="ProofOfConcept-subtitle font-raleway">WHAT THIS PRODUCES</span>
                 </div>
                 
-                <h2 className="ProofOfConcept-title color-light font-playfair">
-                    She became an Olympian.<br/>
-                    <em className='font-playfair'>Then she raised a Major Leaguer.</em>
-                </h2>
+                <FadeUp direction="up">
+                    <h2 className="ProofOfConcept-title color-light font-playfair">
+                        She became an Olympian.<br/>
+                        <em className='font-playfair'>Then she raised a Major Leaguer.</em>
+                    </h2>
+                </FadeUp>
                 <div className="ProofOfConcept-title-line"></div>
 
 

@@ -331,6 +331,69 @@
   50%       { opacity: 0.15; transform: scaleY(0.4); transform-origin: top; }
 }
 
+/* ── Fade-Up Animation ───────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.heroKicker {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.05s;
+}
+
+.heroName {
+  animation: fadeUp 0.8s ease both;
+  animation-delay: 0.2s;
+}
+
+.heroSub {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.38s;
+}
+
+.heroTagline {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.5s;
+}
+
+.heroBody {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.62s;
+}
+
+.btnHocRow {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.74s;
+}
+
+.heroCreds {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.88s;
+}
+
+.Hero_Content_right {
+  animation: fadeUp 0.9s ease both;
+  animation-delay: 0.4s;
+}
+
+.heroSoft,
+.heroGlow {
+  animation: fadeIn 1.4s ease both;
+  animation-delay: 0.1s;
+}
+
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 992px) {
   .heroBody,

@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhatFamiliesSay.css';
+import FadeUp from '../FadeUp/FadeUp';
 
 const testimonials = [
     {

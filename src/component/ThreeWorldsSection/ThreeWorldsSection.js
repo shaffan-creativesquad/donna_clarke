@@ -1,5 +1,6 @@
 import React from 'react';
 import './ThreeWorldsSection.css';
+import FadeUp from '../FadeUp/FadeUp';
 
 function ThreeWorldsSection() {
     const data = [

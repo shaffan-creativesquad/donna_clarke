@@ -1,0 +1,40 @@
+/* ── Base hidden state ──────────────────────────── */
+.fade-up-el,
+.fade-left-el,
+.fade-right-el {
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+.fade-up-el    { transform: translateY(36px); }
+.fade-left-el  { transform: translateX(-48px); }
+.fade-right-el { transform: translateX(48px); }
+
+/* ── Visible state — triggers animation ─────────── */
+.fade-up-el.fade-visible {
+  animation: fadeUpIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.fade-left-el.fade-visible {
+  animation: fadeLeftIn 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.fade-right-el.fade-visible {
+  animation: fadeRightIn 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Keyframes ───────────────────────────────────── */
+@keyframes fadeUpIn {
+  from { opacity: 0; transform: translateY(36px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeLeftIn {
+  from { opacity: 0; transform: translateX(-48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeRightIn {
+  from { opacity: 0; transform: translateX(48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}

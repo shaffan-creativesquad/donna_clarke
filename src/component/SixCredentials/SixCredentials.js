@@ -1,5 +1,6 @@
 import React from 'react';
 import './SixCredentials.css';
+import FadeUp from '../FadeUp/FadeUp';
 
 const credentials = [
     {

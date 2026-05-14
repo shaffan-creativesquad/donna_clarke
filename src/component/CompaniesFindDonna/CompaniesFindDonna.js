@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './CompaniesFindDonna.css';
+import FadeUp from '../FadeUp/FadeUp';
 
 const CompaniesFindDonna = () => {
     return (
