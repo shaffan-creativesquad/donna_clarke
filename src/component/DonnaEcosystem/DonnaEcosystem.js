@@ -1,5 +1,6 @@
 import React from 'react';
 import './DonnaEcosystem.css';
+import { useNavigate } from 'react-router-dom';
 
 const programmes = [
     {
@@ -35,6 +36,8 @@ const programmes = [
 ];
 
 const DonnaEcosystem = () => {
+
+        const navigate = useNavigate();
     return (
         <section className="ecosystem-section">
             <div className="ecosystem-container">
@@ -80,7 +83,7 @@ const DonnaEcosystem = () => {
                 </div>
 
                 <div className="ecosystem-cta-wrap">
-                    <button className="ecosystem-cta-btn font-raleway">SUBMIT AN ENQUIRY</button>
+                    <button onClick={() => navigate('/enquire')} className="ecosystem-cta-btn font-raleway">SUBMIT AN ENQUIRY</button>
                 </div>
 
             </div>

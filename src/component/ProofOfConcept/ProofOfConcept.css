@@ -178,4 +178,8 @@
     .ProofOfConcept-title {
         font-size: 42px;
     }
+
+    .ProofOfConcept-description {
+        text-align: justify;
+    }
 }

@@ -49,7 +49,7 @@ const credentials = [
 
 const SixCredentials = () => {
     return (
-        <section className="sixcred-section">
+        <section className="sixcred-section" id="six-credentials">
             {/* ── Top Header Row ── */}
             <div className="sixcred-header">
                 <div className="sixcred-header-left">

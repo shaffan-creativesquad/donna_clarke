@@ -337,6 +337,10 @@
     max-width: 100%;
   }
 
+  .heroBody {
+    text-align: justify;
+  }
+
   .portraitWrap {
     margin-top: 24px;
     max-width: 100%;

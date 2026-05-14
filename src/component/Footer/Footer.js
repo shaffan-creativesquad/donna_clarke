@@ -15,6 +15,15 @@ function Footer() {
         }
     };
 
+    const handleNavToSection = (sectionId) => {
+        if (window.location.pathname === '/') {
+            scrollToSection(sectionId);
+        } else {
+            navigate('/');
+            setTimeout(() => scrollToSection(sectionId), 400);
+        }
+    };
+
     return (
         <div className="new-footer-container">
             <div className="new-footer-content">
@@ -32,9 +41,9 @@ function Footer() {
                 <div className="new-footer-col">
                     <h4 className="new-footer-heading font-raleway">ABOUT</h4>
                     <ul className="new-footer-links font-raleway">
-                        <li>About Donna</li>
-                        <li>How I Got Here</li>
-                        <li>The Six Credentials</li>
+                        <li onClick={() => { navigate('/'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>About Donna</li>
+                        <li onClick={() => navigate('/how-i-got-here')}>How I Got Here</li>
+                        <li onClick={() => handleNavToSection('six-credentials')}>The Six Credentials</li>
                         <li>Denzel's Story</li>
                         <li>The Athlos Collective</li>
                     </ul>
@@ -44,11 +53,11 @@ function Footer() {
                 <div className="new-footer-col">
                     <h4 className="new-footer-heading font-raleway">WORK WITH DONNA</h4>
                     <ul className="new-footer-links font-raleway">
-                        <li>Services</li>
-                        <li>Speaking</li>
-                        <li>Hall of Champions</li>
-                        <li>Submit an Enquiry</li>
-                        <li>The Champion's Table</li>
+                        <li onClick={() => navigate('/services')}>Services</li>
+                        <li onClick={() => navigate('/speaking')}>Speaking</li>
+                        <li onClick={() => navigate('/hall-of-champions')}>Hall of Champions</li>
+                        <li onClick={() => navigate('/enquire')}>Submit an Enquiry</li>
+                        <li onClick={() => navigate('/hall-of-champions')}>The Champion's Table</li>
                     </ul>
                 </div>
 
