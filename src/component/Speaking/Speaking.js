@@ -82,12 +82,11 @@ const Speaking = () => {
                         </div>
                     </div>
                     <div className="speak-hero-image-wrap">
-                        <div className="speak-hero-img">
-                            <div className="speak-hero-placeholder">
-                             On stage, keynote setting <br />
-                                1600 × 900px · Landscape
-                            </div>
-                        </div>
+                        <img
+                            src="/images/creatives/Speaking_Image-1.jpeg"
+                            alt="Donna Clarke speaking"
+                            className="speak-hero-img"
+                        />
                     </div>
                 </div>
             </section>

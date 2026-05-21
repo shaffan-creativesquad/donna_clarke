@@ -7,16 +7,14 @@ const AboutDonna = () => {
     return (
         <section className="AboutDonna-section">
             <div className="AboutDonna-image-container">
-                <div className="AboutDonna-placeholder-square">
-                    <div className="AboutDonna-image-caption">
-                        <p className="AboutDonna-caption-name">DONNA CLARKE — EDITORIAL PORTRAIT</p>
-                        <p className="AboutDonna-caption-detail">Warm, authoritative, elegant<br/>800x1000px - Portrait</p>
-                    </div>
-                </div>
+                <img
+                    src="/images/creatives/About_Image-3.jpg"
+                    alt="Donna Clarke"
+                    className="AboutDonna-portrait-img"
+                />
                 <div className="AboutDonna-image-info">
                     <p>DONNA CLARKE · AJAX, ONTARIO · FOUNDER, ATHLOS COLLECTIVE</p>
                 </div>
-
             </div>
 
             <div className="AboutDonna-content-container">

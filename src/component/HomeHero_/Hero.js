@@ -123,16 +123,11 @@ const Hero = () => {
                   {/* Corner bracket decoration */}
                   <div className={styles.portraitCorner}></div>
 
-                  {/* Portrait placeholder — replace with <img> when photo is ready */}
-                  <div className={`${styles.portraitPh} d-flex flex-column align-items-center justify-content-center gap-3 p-4`}>
-                    <span className={`${styles.portraitPhLabel} font-raleway text-center`}>
-                      Donna Clarke — Hero Portrait
-                    </span>
-                    <span className={`${styles.portraitPhNote} font-raleway text-center`}>
-                      Editorial portrait · Warm &amp; confident<br />
-                      800 × 1067px · Portrait
-                    </span>
-                  </div>
+                  <img
+                    src="./images/creatives/About_Image-1.jpeg"
+                    alt="Donna Clarke"
+                    className={`${styles.portraitImg} img-fluid w-100`}
+                  />
 
                   {/* Floating quote card */}
                   <div className={styles.quoteFloat}>

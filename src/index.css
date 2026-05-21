@@ -191,10 +191,13 @@ font-family: 'Cormorant Garamond', Georgia, serif!important;
 
 }
 
-.gold-grad-btn
+.gold-grad-btn,
+.gold-grad-btn:hover,
+.gold-grad-btn:focus,
+.gold-grad-btn:active
 {
   background: linear-gradient(135deg, #6B4E2A 0%, #DEB87A 45%, #C4A070 75%, #DEB87A 100%)!important;
-  color: black;
+  color: black !important;
 }
 
 .gold-white-bordered-btn

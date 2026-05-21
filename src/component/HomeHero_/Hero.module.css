@@ -244,31 +244,14 @@
   pointer-events: none;
 }
 
-/* Portrait placeholder */
-.portraitPh {
+/* Portrait image */
+.portraitImg {
   position: relative;
   z-index: 1;
   aspect-ratio: 3 / 4;
   width: 100%;
-  background: rgba(250,246,239,0.06);
-  border: 1px solid rgba(250,246,239,0.12);
-  /* ── Replace this entire block with:
-        <img src="/images/donna-hero.jpg" alt="Donna Clarke" class="img-fluid w-100 h-100" style={{objectFit:"cover"}} />
-     once the real photo is available ── */
-}
-
-.portraitPhLabel {
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: rgba(196,160,112,0.4);
-}
-
-.portraitPhNote {
-  font-size: 11px;
-  color: rgba(250,246,239,0.25);
-  line-height: 1.6;
+  object-fit: cover;
+  display: block;
 }
 
 /* Floating quote card */

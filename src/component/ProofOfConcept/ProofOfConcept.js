@@ -72,12 +72,11 @@ const ProofOfConcept = () => {
                 </div>
 
                 <div className="ProofOfConcept-placeholder-container">
-                    <div className="ProofOfConcept-placeholder-square">
-                        <div className="ProofOfConcept-placeholder-caption">
-                            <p className="ProofOfConcept-caption-title">DONNA + DENZEL — FAMILY PHOTO</p>
-                            <p className="ProofOfConcept-caption-detail">Warm, authentic · Client to supply · 800x533px</p>
-                        </div>
-                    </div>
+                    <img
+                        src="/images/creatives/About_image-2.jpeg"
+                        alt="Donna and Denzel Clarke"
+                        className="ProofOfConcept-photo"
+                    />
                 </div>
             </div>
         </section>

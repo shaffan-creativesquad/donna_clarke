@@ -135,34 +135,11 @@
     justify-content: center;
 }
 
-.ProofOfConcept-placeholder-square {
+.ProofOfConcept-photo {
     width: 100%;
     aspect-ratio: 800 / 533;
-    border: 0.5px solid rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.ProofOfConcept-placeholder-caption {
-    text-align: center;
-}
-
-.ProofOfConcept-caption-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    letter-spacing: 4px;
-    color: #DEB87A;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.ProofOfConcept-caption-detail {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.5);
-    line-height: 1.5;
+    object-fit: cover;
+    display: block;
 }
 
 /* Responsive */
