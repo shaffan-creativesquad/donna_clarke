@@ -8,7 +8,7 @@ const AboutDonna = () => {
         <section className="AboutDonna-section">
             <div className="AboutDonna-image-container">
                 <img
-                    src="/images/creatives/About_Image-3.jpg"
+                    src="/images/creatives/About_image-2.jpeg"
                     alt="Donna Clarke"
                     className="AboutDonna-portrait-img"
                 />

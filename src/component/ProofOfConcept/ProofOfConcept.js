@@ -73,7 +73,7 @@ const ProofOfConcept = () => {
 
                 <div className="ProofOfConcept-placeholder-container">
                     <img
-                        src="/images/creatives/About_image-2.jpeg"
+                        src="/images/creatives/About_Image-3.jpg"
                         alt="Donna and Denzel Clarke"
                         className="ProofOfConcept-photo"
                     />
