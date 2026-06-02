@@ -116,7 +116,7 @@ const Hero = () => {
               </div>
 
               {/* ── RIGHT COLUMN ── */}
-              <div className={`${styles.Hero_Content_right} col-12 col-lg-6 py-5 d-none d-lg-flex justify-content-center align-items-center`}>
+              <div className={`${styles.Hero_Content_right} col-12 col-lg-6 py-5 d-flex justify-content-center align-items-center`}>
 
                 <div className={`${styles.portraitWrap} position-relative w-100`}>
 
